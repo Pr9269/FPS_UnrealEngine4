@@ -1,0 +1,484 @@
+﻿Log file open, 04/08/22 02:33:34
+LogInit:Display: Running engine for game: IGME797_FinalProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1990421231) SRandInit(-1990421229).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.157753
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.04.08-06.33.34:553][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.08-06.33.34:553][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.04.08-06.33.34:558][  0]LogInit: Computer: PARTH
+[2022.04.08-06.33.34:558][  0]LogInit: User: Heisen
+[2022.04.08-06.33.34:558][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.04.08-06.33.34:558][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.04.08-06.33.34:558][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2022.04.08-06.33.34:558][  0]LogMemory: Platform Memory Stats for Windows
+[2022.04.08-06.33.34:558][  0]LogMemory: Process Physical Memory: 276.01 MB used, 276.01 MB peak
+[2022.04.08-06.33.34:558][  0]LogMemory: Process Virtual Memory: 267.47 MB used, 267.47 MB peak
+[2022.04.08-06.33.34:558][  0]LogMemory: Physical Memory: 7806.24 MB used,  7986.02 MB free, 15792.26 MB total
+[2022.04.08-06.33.34:558][  0]LogMemory: Virtual Memory: 4769.18 MB used,  7986.02 MB free, 134217728.00 MB total
+[2022.04.08-06.33.34:631][  0]LogInit: Using OS detected language (en-US).
+[2022.04.08-06.33.34:631][  0]LogInit: Using OS detected locale (en-US).
+[2022.04.08-06.33.34:633][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.04.08-06.33.35:390][  0]LogD3D11RHI: D3D11 adapters:
+[2022.04.08-06.33.35:477][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Laptop GPU' (Feature Level 11_0)
+[2022.04.08-06.33.35:477][  0]LogD3D11RHI:       6023/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.04.08-06.33.35:500][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2022.04.08-06.33.35:500][  0]LogD3D11RHI:       496/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2022.04.08-06.33.35:502][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.04.08-06.33.35:502][  0]LogD3D11RHI:       0/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.04.08-06.33.35:502][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.04.08-06.33.35:509][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.04.08-06.33.35:509][  0]LogD3D11RHI:     GPU DeviceId: 0x2520 (for the marketing name, search the web for "GPU Device Id")
+[2022.04.08-06.33.35:509][  0]LogWindows: EnumDisplayDevices:
+[2022.04.08-06.33.35:509][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:0 D:1)
+[2022.04.08-06.33.35:509][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2022.04.08-06.33.35:509][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.04.08-06.33.35:510][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.04.08-06.33.35:510][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.04.08-06.33.35:510][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.04.08-06.33.35:510][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.04.08-06.33.35:510][  0]LogWindows:    7. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.04.08-06.33.35:510][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.04.08-06.33.35:510][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[2022.04.08-06.33.35:510][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.04.08-06.33.35:510][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.04.08-06.33.35:510][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.04.08-06.33.35:562][  0]LogD3D11RHI: Async texture creation enabled
+[2022.04.08-06.33.35:574][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.04.08-06.33.35:576][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../Unreal Projects/IGME797_FinalProject/Intermediate/Shaders/WorkingDirectory/9820/).
+[2022.04.08-06.33.35:576][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Heisen/AppData/Local/Temp/UnrealShaderWorkingDir/E09C85FD4C5221B31C639893D311EB20/'.
+[2022.04.08-06.33.35:576][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2022.04.08-06.33.36:255][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2022.04.08-06.33.36:289][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2022.04.08-06.33.36:324][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2022.04.08-06.33.36:359][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2022.04.08-06.33.36:393][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2022.04.08-06.33.36:427][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2022.04.08-06.33.36:462][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.04.08-06.33.36:497][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2022.04.08-06.33.36:527][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2022.04.08-06.33.36:560][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2022.04.08-06.33.36:593][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2022.04.08-06.33.36:627][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2022.04.08-06.33.36:661][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2022.04.08-06.33.36:694][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2022.04.08-06.33.36:728][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2022.04.08-06.33.36:797][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2022.04.08-06.33.36:797][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.04.08-06.33.36:824][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2022.04.08-06.33.36:895][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2022.04.08-06.33.36:917][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2022.04.08-06.33.36:950][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2022.04.08-06.33.36:983][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.04.08-06.33.37:018][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2022.04.08-06.33.37:051][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2022.04.08-06.33.37:051][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2022.04.08-06.33.37:392][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2022.04.08-06.33.37:455][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/Heisen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2022.04.08-06.33.37:455][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Heisen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2022.04.08-06.33.37:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/IGME797_FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.04.08-06.33.37:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.04.08-06.33.37:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/IGME797_FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.08-06.33.37:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.04.08-06.33.37:466][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.04.08-06.33.37:479][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Heisen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.04.08-06.33.37:487][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.04.08-06.33.37:487][  0]LogSlate: Using Freetype 2.6.0
+[2022.04.08-06.33.37:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.08-06.33.37:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.08-06.33.37:718][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.08-06.33.37:763][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.04.08-06.33.37:864][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.04.08-06.33.37:894][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.04.08-06.33.37:925][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.04.08-06.33.37:925][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2022.04.08-06.33.37:925][  0]LogMeshUtilities: No automatic mesh merging module available
+[2022.04.08-06.33.38:272][  0]LogNetVersion: IGME797_FinalProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2661520208)
+[2022.04.08-06.33.38:320][  0]LogAssetRegistry: FAssetRegistry took 0.0239 seconds to start up
+[2022.04.08-06.33.38:355][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.019465 seconds
+[2022.04.08-06.33.38:359][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2022.04.08-06.33.38:359][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2022.04.08-06.33.38:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.08-06.33.38:401][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.04.08-06.33.40:020][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.08-06.33.40:053][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.08-06.33.40:445][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.04.08-06.33.40:723][  0]SourceControl: Info Source control is disabled
+[2022.04.08-06.33.40:764][  0]SourceControl: Info Source control is disabled
+[2022.04.08-06.33.40:804][  0]SourceControl: Info Source control is disabled
+[2022.04.08-06.33.40:838][  0]SourceControl: Info Source control is disabled
+[2022.04.08-06.33.41:329][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.04.08-06.33.41:735][  0]LogEngine: Initializing Engine...
+[2022.04.08-06.33.41:736][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.08-06.33.41:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.04.08-06.33.41:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.04.08-06.33.41:943][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.08-06.33.41:983][  0]LogInit: XAudio2 using 'Headphones (Parth’s AirPods Pro - Find Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.08-06.33.41:999][  0]LogInit: FAudioDevice initialized.
+[2022.04.08-06.33.42:033][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Heisen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2022.04.08-06.33.42:045][  0]LogInit: Texture streaming: Enabled
+[2022.04.08-06.33.42:111][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.04.08-06.33.42:259][  0]LogInit: Transaction tracking system initialized
+[2022.04.08-06.33.42:459][  0]BlueprintLog: New page: Editor Load
+[2022.04.08-06.33.43:070][  0]LocalizationService: Info Localization service is disabled
+[2022.04.08-06.33.43:530][  0]LogConsoleResponse:Display: 
+[2022.04.08-06.33.43:616][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.04.08-06.33.43:616][  0]LogCook:Display: Mobile HDR setting 1
+[2022.04.08-06.33.44:305][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Content/' took 0.01s
+[2022.04.08-06.33.44:305][  0]SourceControl: Info Source control is disabled
+[2022.04.08-06.33.44:381][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.04.08-06.34.03:037][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.08-06.34.03:038][  0]LightingResults: New page: Lighting Build
+[2022.04.08-06.34.03:069][  0]MapCheck: New page: Map Check
+[2022.04.08-06.34.03:069][  0]LightingResults: New page: Lighting Build
+[2022.04.08-06.34.03:364][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.08-06.34.03:373][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.08-06.34.03:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.08-06.34.03:420][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.616ms to complete.
+[2022.04.08-06.34.03:420][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.383
+[2022.04.08-06.34.03:479][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_5210_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1a1c_0///####STATCAT_Advanced####
+[2022.04.08-06.34.03:479][  0]LogCollectionManager: Loaded 0 collections in 0.000591 seconds
+[2022.04.08-06.34.03:544][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Saved/Collections/' took 0.01s
+[2022.04.08-06.34.03:544][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Content/Developers/Heisen/Collections/' took 0.01s
+[2022.04.08-06.34.03:544][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Content/Collections/' took 0.01s
+[2022.04.08-06.34.03:544][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2022.04.08-06.34.03:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2329 classes and 491 folders.
+[2022.04.08-06.34.03:593][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.04.08-06.34.03:622][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.04.08-06.34.03:652][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.04.08-06.34.03:679][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2022.04.08-06.34.03:685][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.04.08-06.34.03:688][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.04.08-06.34.03:750][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2022.04.08-06.34.03:787][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.04.08-06.34.03:851][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2022.04.08-06.34.03:904][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.04.08-06.34.03:904][  0]LogLoad: (Engine Initialization) Total time: 30.82 seconds
+[2022.04.08-06.34.03:904][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2022.04.08-06.34.03:904][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.04.08-06.34.03:922][  0]LogOcInput: OculusInput pre-init called
+[2022.04.08-06.34.03:922][  0]LogHMD: Starting GearVRController plugin
+[2022.04.08-06.34.03:946][  0]LogAssetRegistry: Asset discovery search completed in 25.6468 seconds
+[2022.04.08-06.34.03:947][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.04.08-06.34.03:947][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2022.04.08-06.34.03:965][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.08-06.34.04:942][ 56]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.04.08-06.34.08:089][245]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.04.08-06.34.08:319][245]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2022.04.08-06.34.08:719][245]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.08-06.34.17:033][743]LogConsoleManager:Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2022.04.08-06.34.34:575][235]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.08-06.34.42:867][732]BlueprintLog: New page: Compile DamageEffects
+[2022.04.08-06.34.42:956][732]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2022.04.08-06.34.43:339][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/DamageEffects" FILE="../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/DamageEffects.uasset" SILENT=true
+[2022.04.08-06.34.43:350][754]LogSavePackage: Save=8.86ms
+[2022.04.08-06.34.43:350][754]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/DamageEffectsFCFC8C0547DBF8D54F74418A3F871342.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/DamageEffects.uasset'
+[2022.04.08-06.34.43:352][754]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/DamageEffects.uasset
+[2022.04.08-06.34.46:097][919]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.08-06.34.46:121][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.34.46:121][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.08-06.34.46:122][919]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 7, 2022, 10:34:46 PM)
+[2022.04.08-06.34.46:122][919]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.08-06.34.46:140][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018491s)
+[2022.04.08-06.34.46:141][919]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.08-06.34.46:141][919]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2022.04.08-06.34.46:141][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019452s)
+[2022.04.08-06.34.46:181][919]LogInit: XAudio2 using 'Headphones (Parth’s AirPods Pro - Find Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.08-06.34.46:188][919]LogInit: FAudioDevice initialized.
+[2022.04.08-06.34.46:239][919]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.08-06.34.46:241][919]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.08-02.34.46
+[2022.04.08-06.34.46:241][919]LogWorld: Bringing up level for play took: 0.001379
+[2022.04.08-06.34.46:271][919]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2022.04.08-06.34.46:272][919]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.088
+[2022.04.08-06.34.46:273][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.34.50:870][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.34.50:899][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.35.37:491][368]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2022.04.08-06.35.38:479][415]LogSavePackage: Save=67.32ms
+[2022.04.08-06.35.38:479][415]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonCharacterA8890F6943705BFA1A6DB5BAF71C786C.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.04.08-06.35.38:481][415]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2022.04.08-06.35.41:760][612]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.08-06.35.41:769][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.35.41:769][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.08-06.35.41:769][612]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 7, 2022, 10:35:41 PM)
+[2022.04.08-06.35.41:769][612]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.08-06.35.41:781][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012592s)
+[2022.04.08-06.35.41:782][612]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.08-06.35.41:782][612]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2022.04.08-06.35.41:782][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013741s)
+[2022.04.08-06.35.41:825][612]LogInit: XAudio2 using 'Headphones (Parth’s AirPods Pro - Find Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.08-06.35.41:833][612]LogInit: FAudioDevice initialized.
+[2022.04.08-06.35.41:865][612]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.08-06.35.41:867][612]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.08-02.35.41
+[2022.04.08-06.35.41:867][612]LogWorld: Bringing up level for play took: 0.001451
+[2022.04.08-06.35.41:868][612]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.683
+[2022.04.08-06.35.41:868][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.35.46:862][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.35.46:896][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.36.13:368][473]LogEditorTransaction: Undo Create Pin Link
+[2022.04.08-06.36.19:472][837]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2022.04.08-06.36.20:354][878]LogSavePackage: Save=66.14ms
+[2022.04.08-06.36.20:354][878]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonCharacter186787034E811CF2F4561F8CABA14674.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.04.08-06.36.20:356][878]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2022.04.08-06.36.22:353][998]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.08-06.36.22:363][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.36.22:363][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.08-06.36.22:363][998]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 7, 2022, 10:36:22 PM)
+[2022.04.08-06.36.22:363][998]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.08-06.36.22:379][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016137s)
+[2022.04.08-06.36.22:380][998]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.08-06.36.22:380][998]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2022.04.08-06.36.22:380][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017112s)
+[2022.04.08-06.36.22:422][998]LogInit: XAudio2 using 'Headphones (Parth’s AirPods Pro - Find Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.08-06.36.22:430][998]LogInit: FAudioDevice initialized.
+[2022.04.08-06.36.22:457][998]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.08-06.36.22:460][998]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.08-02.36.22
+[2022.04.08-06.36.22:460][998]LogWorld: Bringing up level for play took: 0.001495
+[2022.04.08-06.36.22:461][998]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.724
+[2022.04.08-06.36.22:461][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.36.27:022][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.36.27:057][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2022.04.08-06.36.28:605][355]LogSavePackage: Save=89.60ms
+[2022.04.08-06.36.28:605][355]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonExampleMap18A4BBD34C05F482B322BAADE8434CB9.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.08-06.36.28:607][355]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2022.04.08-06.36.28:710][355]LogSavePackage: Save=88.62ms
+[2022.04.08-06.36.28:710][355]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonExampleMap_BuiltDataD74C36BB4A6054B55B1F5EA1EACDD169.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.04.08-06.36.28:712][355]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2022.04.08-06.36.36:214][798]LogSavePackage: Save=91.20ms
+[2022.04.08-06.36.36:214][798]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonExampleMapA2B67C464FD25DF0B34D3B9DE336269D.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.08-06.36.36:215][798]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2022.04.08-06.36.36:277][798]LogSavePackage: Save=49.67ms
+[2022.04.08-06.36.36:277][798]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonExampleMap_BuiltDataA1FD2F454720093974814784416E82FF.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.04.08-06.36.36:278][798]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2022.04.08-06.38.36:292][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Swat'
+[2022.04.08-06.38.36:292][607]LogPackageName:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_Body_diffuse' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:492][607]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.200 s
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: === Handled ensure: ===
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: 
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674]
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_Body_diffuse' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: Stack: 
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006DF6E2B6
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006DD1B8C2
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006DD31E86
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CE2E884
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000047A1B5BA
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B01C994B
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B0198B3E
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B023E7FF
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B022720F
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B02141FE
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006DF5F23D
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006DF7760A
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: ole32.dll!0x0000000006CBBAE8
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: RPCRT4.dll!0x0000000006D98D23
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: RPCRT4.dll!0x0000000006DFD77B
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: RPCRT4.dll!0x0000000006D3BA89
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x0000000005469400
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x0000000005430D33
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x0000000005430ABE
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x000000000546D916
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x0000000005409E03
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x00000000053F389D
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x00000000053D6626
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: combase.dll!0x000000000541BD8A
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: USER32.dll!0x0000000006A5E858
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: USER32.dll!0x0000000006A5E299
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006DF63CE6
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor.exe!0x00000000F9A2DB44
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor.exe!0x00000000F9A1F0B0
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor.exe!0x00000000F9A1F12A
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor.exe!0x00000000F9A30CF9
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: UE4Editor.exe!0x00000000F9A325F7
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: KERNEL32.DLL!0x0000000006387034
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: ntdll.dll!0x00000000073A2651
+[2022.04.08-06.38.36:492][607]LogOutputDevice:Error: 
+[2022.04.08-06.38.36:501][607]LogStats:                SubmitErrorReport -  0.000 s
+[2022.04.08-06.38.36:896][607]LogStats:                    SendNewReport -  0.395 s
+[2022.04.08-06.38.36:896][607]LogStats:             FDebug::EnsureFailed -  0.604 s
+[2022.04.08-06.38.36:896][607]LogPackageName:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_Body_normal' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:896][607]LogPackageName:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_Body_specular' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:896][607]LogPackageName:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_head_diffuse' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:896][607]LogPackageName:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_head_normal' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:896][607]LogPackageName:Error: Illegal call to DoesPackageExist: '/Game/ThirdPersonBP/Blueprints/Character/Swat.fbm/Soldier_head_specular' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2022.04.08-06.38.36:953][607]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unreal Projects\FPSAssets\Character\Mesh\Swat.fbx)
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: NodeAttribute, ItemCount : 71
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Model, ItemCount : 73
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Material, ItemCount : 3
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Texture, ItemCount : 6
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Video, ItemCount : 6
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: MotionBuilder_System, ItemCount : 29
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: MotionBuilder_Generic, ItemCount : 3
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Geometry, ItemCount : 51
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Deformer, ItemCount : 112
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: Pose, ItemCount : 2
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2022.04.08-06.38.37:041][607]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2022.04.08-06.38.37:044][607]LogFbx: Loading FBX Scene from D:\Unreal Projects\FPSAssets\Character\Mesh\Swat.fbx
+[2022.04.08-06.38.37:273][607]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.08-06.39.14:895][607]LogFbx: Loading FBX Scene from D:\Unreal Projects\FPSAssets\Character\Mesh\Swat.fbx
+[2022.04.08-06.39.15:124][607]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.08-06.39.15:131][607]LogFbx: =================================================
+[2022.04.08-06.39.15:131][607]LogFbx: Dumping Node START [Soldier_head] 
+[2022.04.08-06.39.15:131][607]LogFbx: 	Total Deformer Count 314480000.
+[2022.04.08-06.39.15:131][607]LogFbx: 		[Node 1]  (Type BlendShape).
+[2022.04.08-06.39.15:131][607]LogFbx: =================================================
+[2022.04.08-06.39.15:131][607]LogFbx: 		[Node 2] 1 (Type Skin).
+[2022.04.08-06.39.15:131][607]LogFbx: =================================================
+[2022.04.08-06.39.15:131][607]LogFbx: 	Attribute () Type (4).
+[2022.04.08-06.39.15:131][607]LogFbx: 		[Node Attribute Child 1] Soldier_head (Type Mesh).
+[2022.04.08-06.39.15:131][607]LogFbx: Dumping Node END [Soldier_head]
+[2022.04.08-06.39.15:131][607]LogFbx: =================================================
+[2022.04.08-06.39.15:131][607]LogFbx: Dumping Node START [Soldier_body] 
+[2022.04.08-06.39.15:131][607]LogFbx: 	Total Deformer Count 314480000.
+[2022.04.08-06.39.15:131][607]LogFbx: 		[Node 1]  (Type Skin).
+[2022.04.08-06.39.15:131][607]LogFbx: =================================================
+[2022.04.08-06.39.15:131][607]LogFbx: 	Attribute () Type (4).
+[2022.04.08-06.39.15:131][607]LogFbx: 		[Node Attribute Child 1] Soldier_body (Type Mesh).
+[2022.04.08-06.39.15:131][607]LogFbx: Dumping Node END [Soldier_body]
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node START [Soldier_head] 
+[2022.04.08-06.39.15:132][607]LogFbx: 	Total Deformer Count 314480000.
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node 1]  (Type BlendShape).
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node 2] 1 (Type Skin).
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: 	Attribute () Type (4).
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node Attribute Child 1] Soldier_head (Type Mesh).
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node END [Soldier_head]
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node START [Soldier_body] 
+[2022.04.08-06.39.15:132][607]LogFbx: 	Total Deformer Count 314480000.
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node 1]  (Type Skin).
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: 	Attribute () Type (4).
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node Attribute Child 1] Soldier_body (Type Mesh).
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node END [Soldier_body]
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node START [Soldier_head] 
+[2022.04.08-06.39.15:132][607]LogFbx: 	Total Deformer Count 314480000.
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node 1]  (Type BlendShape).
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node 2] 1 (Type Skin).
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: 	Attribute () Type (4).
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node Attribute Child 1] Soldier_head (Type Mesh).
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node END [Soldier_head]
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node START [Soldier_body] 
+[2022.04.08-06.39.15:132][607]LogFbx: 	Total Deformer Count 314480000.
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node 1]  (Type Skin).
+[2022.04.08-06.39.15:132][607]LogFbx: =================================================
+[2022.04.08-06.39.15:132][607]LogFbx: 	Attribute () Type (4).
+[2022.04.08-06.39.15:132][607]LogFbx: 		[Node Attribute Child 1] Soldier_body (Type Mesh).
+[2022.04.08-06.39.15:132][607]LogFbx: Dumping Node END [Soldier_body]
+[2022.04.08-06.39.15:133][607]LogFbx: Valid bind pose for Pose (skinCluster1) - Soldier_head
+[2022.04.08-06.39.15:133][607]LogFbx: Valid bind pose for Pose (skinCluster2) - Soldier_head
+[2022.04.08-06.39.15:135][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_body1'
+[2022.04.08-06.39.15:135][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_body1'
+[2022.04.08-06.39.15:135][607]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Character/Soldier_body1.Soldier_body1 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.04.08-06.39.15:137][607]LogMaterial: Missing cached shader map for material Soldier_body1, compiling. 
+[2022.04.08-06.39.15:172][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_Body_diffuse'
+[2022.04.08-06.39.15:172][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_Body_diffuse'
+[2022.04.08-06.39.15:382][607]LogTexture:Display: Building textures: Soldier_Body_diffuse (AutoDXT, 2048X2048)
+[2022.04.08-06.39.16:345][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_Body_specular'
+[2022.04.08-06.39.16:345][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_Body_specular'
+[2022.04.08-06.39.16:437][607]LogTexture:Display: Building textures: Soldier_Body_specular (AutoDXT, 1024X1024)
+[2022.04.08-06.39.16:626][607]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.04.08-06.39.16:637][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_Body_normal'
+[2022.04.08-06.39.16:638][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_Body_normal'
+[2022.04.08-06.39.16:840][607]LogTexture:Display: Building textures: Soldier_Body_normal (BC5, 2048X2048)
+[2022.04.08-06.39.17:181][607]LogMaterial: Missing cached shader map for material Soldier_body1, compiling. 
+[2022.04.08-06.39.17:211][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head6'
+[2022.04.08-06.39.17:211][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head6'
+[2022.04.08-06.39.17:212][607]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Character/Soldier_head6.Soldier_head6 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.04.08-06.39.17:213][607]LogMaterial: Missing cached shader map for material Soldier_head6, compiling. 
+[2022.04.08-06.39.17:240][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head_diffuse'
+[2022.04.08-06.39.17:240][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head_diffuse'
+[2022.04.08-06.39.17:454][607]LogTexture:Display: Building textures: Soldier_head_diffuse (AutoDXT, 2048X2048)
+[2022.04.08-06.39.18:293][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head_specular'
+[2022.04.08-06.39.18:293][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head_specular'
+[2022.04.08-06.39.18:409][607]LogTexture:Display: Building textures: Soldier_head_specular (AutoDXT, 1024X1024)
+[2022.04.08-06.39.18:730][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head_normal'
+[2022.04.08-06.39.18:730][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Soldier_head_normal'
+[2022.04.08-06.39.19:075][607]LogTexture:Display: Building textures: Soldier_head_normal (BC5, 2048X2048)
+[2022.04.08-06.39.19:875][607]LogMaterial: Missing cached shader map for material Soldier_head6, compiling. 
+[2022.04.08-06.39.19:930][607]LogFbx: Triangulating skeletal mesh Soldier_head
+[2022.04.08-06.39.20:812][607]LogFbx: Triangulating skeletal mesh Soldier_body
+[2022.04.08-06.39.21:563][607]LogFbx:Warning: Bones digested - 69  Depth of hierarchy - 12
+[2022.04.08-06.39.22:227][607]LogSkeletalMesh: Section 0: 8833 vertices, 54 active bones
+[2022.04.08-06.39.22:228][607]LogSkeletalMesh: Section 1: 3749 vertices, 6 active bones
+[2022.04.08-06.39.22:316][607]LogSkeletalMesh: Section 0: Material=0, 13014 triangles
+[2022.04.08-06.39.22:316][607]LogSkeletalMesh: Section 1: Material=1, 6436 triangles
+[2022.04.08-06.39.22:331][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Swat_Skeleton'
+[2022.04.08-06.39.22:331][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Swat_Skeleton'
+[2022.04.08-06.39.22:336][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Swat_PhysicsAsset'
+[2022.04.08-06.39.22:336][607]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Character/Swat_PhysicsAsset'
+[2022.04.08-06.39.22:404][607]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.04.08-06.39.22:404][607]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+swat:HeadTop_End  
+swat:LeftHandThumb4  
+swat:LeftHandMiddle4  
+swat:LeftHandIndex4  
+swat:LeftHandRing4  
+swat:LeftHandPinky4  
+swat:RightHandThumb4  
+swat:RightHandIndex4  
+swat:RightHandMiddle4  
+swat:RightHandRing4  
+swat:RightHandPinky4  
+swat:LeftFootToeBase_End  
+swat:RightFootToeBase_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.04.08-06.39.22:470][607]LogWindows: Windows GetLastError: The operation completed successfully. (0)

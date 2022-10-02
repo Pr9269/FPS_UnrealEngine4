@@ -1,0 +1,625 @@
+﻿Log file open, 05/05/22 01:30:04
+LogInit:Display: Running engine for game: IGME797_FinalProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1450941638) SRandInit(1450941638).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.170454
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.05.05-05.30.05:158][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.05-05.30.05:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.05.05-05.30.05:166][  0]LogInit: Computer: PARTH
+[2022.05.05-05.30.05:166][  0]LogInit: User: Heisen
+[2022.05.05-05.30.05:166][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.05.05-05.30.05:166][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.05.05-05.30.05:166][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2022.05.05-05.30.05:166][  0]LogMemory: Platform Memory Stats for Windows
+[2022.05.05-05.30.05:166][  0]LogMemory: Process Physical Memory: 275.15 MB used, 275.16 MB peak
+[2022.05.05-05.30.05:166][  0]LogMemory: Process Virtual Memory: 267.66 MB used, 267.66 MB peak
+[2022.05.05-05.30.05:166][  0]LogMemory: Physical Memory: 7927.79 MB used,  7864.47 MB free, 15792.26 MB total
+[2022.05.05-05.30.05:166][  0]LogMemory: Virtual Memory: 4769.13 MB used,  7864.47 MB free, 134217728.00 MB total
+[2022.05.05-05.30.05:237][  0]LogInit: Using OS detected language (en-US).
+[2022.05.05-05.30.05:237][  0]LogInit: Using OS detected locale (en-US).
+[2022.05.05-05.30.05:239][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.05.05-05.30.06:037][  0]LogD3D11RHI: D3D11 adapters:
+[2022.05.05-05.30.06:144][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Laptop GPU' (Feature Level 11_0)
+[2022.05.05-05.30.06:144][  0]LogD3D11RHI:       6023/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.05.05-05.30.06:172][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2022.05.05-05.30.06:172][  0]LogD3D11RHI:       496/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2022.05.05-05.30.06:175][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.05.05-05.30.06:175][  0]LogD3D11RHI:       0/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.05.05-05.30.06:175][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.05.05-05.30.06:183][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.05.05-05.30.06:183][  0]LogD3D11RHI:     GPU DeviceId: 0x2520 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.05-05.30.06:183][  0]LogWindows: EnumDisplayDevices:
+[2022.05.05-05.30.06:183][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:0 D:1)
+[2022.05.05-05.30.06:183][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2022.05.05-05.30.06:183][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.05.05-05.30.06:184][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.05.05-05.30.06:184][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.05.05-05.30.06:184][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.05.05-05.30.06:184][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.05.05-05.30.06:184][  0]LogWindows:    7. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2022.05.05-05.30.06:184][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.05.05-05.30.06:184][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[2022.05.05-05.30.06:184][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.05.05-05.30.06:184][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.05.05-05.30.06:184][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.05.05-05.30.06:254][  0]LogD3D11RHI: Async texture creation enabled
+[2022.05.05-05.30.06:267][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.05.05-05.30.06:269][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../Unreal Projects/IGME797_FinalProject/Intermediate/Shaders/WorkingDirectory/5972/).
+[2022.05.05-05.30.06:269][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Heisen/AppData/Local/Temp/UnrealShaderWorkingDir/AD27826742E6AC84B6D402BACCE2408B/'.
+[2022.05.05-05.30.06:269][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2022.05.05-05.30.07:011][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2022.05.05-05.30.07:051][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2022.05.05-05.30.07:093][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2022.05.05-05.30.07:132][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2022.05.05-05.30.07:171][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2022.05.05-05.30.07:210][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2022.05.05-05.30.07:251][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.05.05-05.30.07:292][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2022.05.05-05.30.07:325][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2022.05.05-05.30.07:364][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2022.05.05-05.30.07:402][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2022.05.05-05.30.07:439][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2022.05.05-05.30.07:477][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2022.05.05-05.30.07:516][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2022.05.05-05.30.07:553][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2022.05.05-05.30.07:632][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2022.05.05-05.30.07:632][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.05.05-05.30.07:662][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2022.05.05-05.30.07:740][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2022.05.05-05.30.07:764][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2022.05.05-05.30.07:800][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2022.05.05-05.30.07:840][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.05.05-05.30.07:879][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2022.05.05-05.30.07:918][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2022.05.05-05.30.07:918][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2022.05.05-05.30.08:308][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2022.05.05-05.30.08:389][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Heisen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2022.05.05-05.30.08:389][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Heisen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2022.05.05-05.30.08:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/IGME797_FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.05-05.30.08:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.05.05-05.30.08:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/IGME797_FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.05-05.30.08:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.05.05-05.30.08:402][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.05-05.30.08:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Heisen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.05-05.30.08:422][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.05.05-05.30.08:422][  0]LogSlate: Using Freetype 2.6.0
+[2022.05.05-05.30.08:423][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.05-05.30.08:423][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.05-05.30.08:677][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.05-05.30.08:730][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.05.05-05.30.08:846][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.05-05.30.08:883][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.05.05-05.30.08:918][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.05.05-05.30.08:918][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2022.05.05-05.30.08:918][  0]LogMeshUtilities: No automatic mesh merging module available
+[2022.05.05-05.30.09:315][  0]LogNetVersion: IGME797_FinalProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2661520208)
+[2022.05.05-05.30.09:365][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2022.05.05-05.30.09:418][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038884 seconds
+[2022.05.05-05.30.09:423][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2022.05.05-05.30.09:423][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2022.05.05-05.30.09:423][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.05-05.30.09:468][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.05.05-05.30.11:281][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.05-05.30.11:316][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.05-05.30.11:738][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.05.05-05.30.12:028][  0]SourceControl: Info Source control is disabled
+[2022.05.05-05.30.12:084][  0]SourceControl: Info Source control is disabled
+[2022.05.05-05.30.12:120][  0]SourceControl: Info Source control is disabled
+[2022.05.05-05.30.12:159][  0]SourceControl: Info Source control is disabled
+[2022.05.05-05.30.12:687][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.05-05.30.13:156][  0]LogEngine: Initializing Engine...
+[2022.05.05-05.30.13:157][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.05-05.30.13:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.05.05-05.30.13:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.05.05-05.30.13:406][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.05.05-05.30.13:453][  0]LogInit: XAudio2 using 'Speakers (USBAudio2.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.05-05.30.13:479][  0]LogInit: FAudioDevice initialized.
+[2022.05.05-05.30.13:515][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Heisen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2022.05.05-05.30.13:529][  0]LogInit: Texture streaming: Enabled
+[2022.05.05-05.30.13:602][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.05.05-05.30.13:760][  0]LogInit: Transaction tracking system initialized
+[2022.05.05-05.30.13:991][  0]BlueprintLog: New page: Editor Load
+[2022.05.05-05.30.14:673][  0]LocalizationService: Info Localization service is disabled
+[2022.05.05-05.30.15:202][  0]LogConsoleResponse:Display: 
+[2022.05.05-05.30.15:300][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.05.05-05.30.15:300][  0]LogCook:Display: Mobile HDR setting 1
+[2022.05.05-05.30.16:109][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Content/' took 0.03s
+[2022.05.05-05.30.16:109][  0]SourceControl: Info Source control is disabled
+[2022.05.05-05.30.16:109][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/IGME797_FinalProject/Content/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.05-05.30.16:111][  0]LightingResults: New page: Lighting Build
+[2022.05.05-05.30.16:140][  0]MapCheck: New page: Map Check
+[2022.05.05-05.30.16:140][  0]LightingResults: New page: Lighting Build
+[2022.05.05-05.30.17:571][  0]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.05-05.30.17:686][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.05-05.30.17:720][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.05-05.30.17:782][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.314ms to complete.
+[2022.05.05-05.30.17:782][  0]LogFileHelpers: Loading map 'MainLevel' took 1.673
+[2022.05.05-05.30.17:907][  0]LogCollectionManager: Loaded 0 collections in 0.000700 seconds
+[2022.05.05-05.30.17:980][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Saved/Collections/' took 0.01s
+[2022.05.05-05.30.17:980][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Content/Developers/Heisen/Collections/' took 0.01s
+[2022.05.05-05.30.17:980][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/IGME797_FinalProject/Content/Collections/' took 0.01s
+[2022.05.05-05.30.17:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2022.05.05-05.30.17:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2329 classes and 491 folders.
+[2022.05.05-05.30.18:036][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.05.05-05.30.18:110][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.05.05-05.30.18:159][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2022.05.05-05.30.18:195][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2022.05.05-05.30.18:201][  0]LogSlate: Took 0.000471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.05-05.30.18:203][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.05.05-05.30.18:208][  0]LogSlate: Took 0.000798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.05-05.30.18:280][  0]LogRenderer: Reallocating scene render targets to support 1224x580 NumSamples 1 (Frame:1).
+[2022.05.05-05.30.18:343][  0]LogSlate: Took 0.000933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.05.05-05.30.18:431][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2022.05.05-05.30.18:489][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.05.05-05.30.18:489][  0]LogLoad: (Engine Initialization) Total time: 15.04 seconds
+[2022.05.05-05.30.18:489][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2022.05.05-05.30.18:489][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.05.05-05.30.18:507][  0]LogOcInput: OculusInput pre-init called
+[2022.05.05-05.30.18:507][  0]LogHMD: Starting GearVRController plugin
+[2022.05.05-05.30.18:532][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.05.05-05.30.18:596][  1]LogAssetRegistry: Asset discovery search completed in 9.2530 seconds
+[2022.05.05-05.30.18:599][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.05.05-05.30.18:599][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2022.05.05-06.18.23:530][709]LogRenderer: Reallocating scene render targets to support 1224x584 NumSamples 1 (Frame:29527).
+[2022.05.05-06.18.23:577][710]LogRenderer: Reallocating scene render targets to support 1224x592 NumSamples 1 (Frame:29529).
+[2022.05.05-06.18.23:626][711]LogRenderer: Reallocating scene render targets to support 1224x620 NumSamples 1 (Frame:29531).
+[2022.05.05-06.18.23:667][712]LogRenderer: Reallocating scene render targets to support 1224x672 NumSamples 1 (Frame:29533).
+[2022.05.05-06.18.23:714][713]LogRenderer: Reallocating scene render targets to support 1224x716 NumSamples 1 (Frame:29535).
+[2022.05.05-06.18.23:758][714]LogRenderer: Reallocating scene render targets to support 1224x744 NumSamples 1 (Frame:29537).
+[2022.05.05-06.18.23:802][715]LogRenderer: Reallocating scene render targets to support 1224x760 NumSamples 1 (Frame:29539).
+[2022.05.05-06.18.23:842][716]LogRenderer: Reallocating scene render targets to support 1224x784 NumSamples 1 (Frame:29541).
+[2022.05.05-06.18.23:885][717]LogRenderer: Reallocating scene render targets to support 1224x796 NumSamples 1 (Frame:29543).
+[2022.05.05-06.18.23:929][718]LogRenderer: Reallocating scene render targets to support 1224x800 NumSamples 1 (Frame:29545).
+[2022.05.05-06.18.25:034][782]LogRenderer: Reallocating scene render targets to support 1228x800 NumSamples 1 (Frame:29600).
+[2022.05.05-06.18.25:083][783]LogRenderer: Reallocating scene render targets to support 1260x800 NumSamples 1 (Frame:29602).
+[2022.05.05-06.18.25:132][784]LogRenderer: Reallocating scene render targets to support 1328x800 NumSamples 1 (Frame:29604).
+[2022.05.05-06.18.25:177][785]LogRenderer: Reallocating scene render targets to support 1392x800 NumSamples 1 (Frame:29606).
+[2022.05.05-06.18.25:222][786]LogRenderer: Reallocating scene render targets to support 1400x800 NumSamples 1 (Frame:29608).
+[2022.05.05-06.18.25:333][790]LogRenderer: Reallocating scene render targets to support 1408x800 NumSamples 1 (Frame:29612).
+[2022.05.05-06.18.25:375][791]LogRenderer: Reallocating scene render targets to support 1424x800 NumSamples 1 (Frame:29614).
+[2022.05.05-06.18.25:452][792]LogRenderer: Reallocating scene render targets to support 1436x800 NumSamples 1 (Frame:29616).
+[2022.05.05-06.18.28:252][955]LogRenderer: Reallocating scene render targets to support 1448x800 NumSamples 1 (Frame:29779).
+[2022.05.05-06.18.28:296][956]LogRenderer: Reallocating scene render targets to support 1476x800 NumSamples 1 (Frame:29781).
+[2022.05.05-06.18.28:345][956]LogRenderer: Reallocating scene render targets to support 1544x800 NumSamples 1 (Frame:29783).
+[2022.05.05-06.18.28:402][958]LogRenderer: Reallocating scene render targets to support 1652x800 NumSamples 1 (Frame:29785).
+[2022.05.05-06.18.28:449][959]LogRenderer: Reallocating scene render targets to support 1716x800 NumSamples 1 (Frame:29787).
+[2022.05.05-06.18.28:494][960]LogRenderer: Reallocating scene render targets to support 1764x800 NumSamples 1 (Frame:29789).
+[2022.05.05-06.18.28:537][961]LogRenderer: Reallocating scene render targets to support 1784x800 NumSamples 1 (Frame:29791).
+[2022.05.05-06.18.28:583][962]LogRenderer: Reallocating scene render targets to support 1788x800 NumSamples 1 (Frame:29793).
+[2022.05.05-06.20.53:663][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.05.05-06.21.08:264][936]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.05-06.21.08:386][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.05-06.21.08:386][936]PIE: New page: PIE session: MainLevel (May 4, 2022, 10:21:08 PM)
+[2022.05.05-06.21.08:387][936]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2022.05.05-06.21.08:409][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021900s)
+[2022.05.05-06.21.08:410][936]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.05-06.21.08:410][936]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2022.05.05-06.21.08:410][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.023176s)
+[2022.05.05-06.21.08:456][936]LogInit: XAudio2 using 'Speakers (USBAudio2.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.05-06.21.08:469][936]LogInit: FAudioDevice initialized.
+[2022.05.05-06.21.08:520][936]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.05-06.21.08:532][936]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2022.05.05-02.21.08
+[2022.05.05-06.21.08:541][936]LogWorld: Bringing up level for play took: 0.017748
+[2022.05.05-06.21.08:573][936]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2022.05.05-06.21.08:584][936]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2022.05.05-06.21.08:586][936]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLevel 0.185
+[2022.05.05-06.21.09:690][  1]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=-399.49 Y=20.15 Z=0.00 Location: X=26346.66 Y=22572.07 Z=88.06 Normal: X=0.79 Y=0.56 Z=-0.23 PenetrationDepth:1.752 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.21.16:223][393]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-375.52 Y=137.79 Z=0.00 Location: X=25823.03 Y=25187.68 Z=2.97 Normal: X=-0.55 Y=-0.83 Z=0.00 PenetrationDepth:0.840 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftArm (0 other events since notify)
+[2022.05.05-06.21.25:791][967]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=312.24 Y=250.02 Z=0.00 Location: X=21107.01 Y=23663.37 Z=88.06 Normal: X=-0.67 Y=-0.69 Z=-0.26 PenetrationDepth:7.970 Actor:SimpleAI10_1717 Component:CharacterMesh0 BoneName:LeftHand (1 other events since notify)
+[2022.05.05-06.21.26:890][ 33]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-135.32 Y=376.41 Z=0.00 Location: X=26892.58 Y=24097.57 Z=89.97 Normal: X=0.90 Y=0.44 Z=0.00 PenetrationDepth:0.345 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.21.36:241][594]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-32.82 Y=-9.37 Z=0.00 Location: X=24857.69 Y=26927.32 Z=90.15 Normal: X=-0.99 Y=-0.11 Z=0.00 PenetrationDepth:7.471 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.21.36:325][599]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-387.65 Y=98.65 Z=0.00 Location: X=24900.74 Y=26872.26 Z=90.21 Normal: X=0.99 Y=-0.14 Z=0.00 PenetrationDepth:0.074 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightArm (7 other events since notify)
+[2022.05.05-06.21.37:208][652]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-347.68 Y=-190.34 Z=0.00 Location: X=21908.08 Y=26771.34 Z=88.02 Normal: X=0.43 Y=0.88 Z=-0.20 PenetrationDepth:4.247 Actor:SimpleAI3_522 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.21.38:156][709]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-313.53 Y=-150.97 Z=0.00 Location: X=24341.23 Y=27001.66 Z=88.15 Normal: X=-0.28 Y=-0.90 Z=-0.33 PenetrationDepth:9.880 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.21.44:141][ 68]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-178.63 Y=-168.61 Z=0.00 Location: X=19502.06 Y=25819.59 Z=112.77 Normal: X=0.51 Y=0.73 Z=-0.45 PenetrationDepth:13.682 Actor:SimpleAI11_1902 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.21.53:040][602]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=14.09 Y=-31.09 Z=0.00 Location: X=24786.16 Y=27763.45 Z=90.11 Normal: X=-0.41 Y=0.91 Z=0.00 PenetrationDepth:1.454 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:Spine2 (0 other events since notify)
+[2022.05.05-06.21.54:075][664]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=14.09 Y=-31.09 Z=0.00 Location: X=24786.16 Y=27763.45 Z=90.11 Normal: X=-0.41 Y=0.91 Z=0.00 PenetrationDepth:1.454 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:Spine2 (30 other events since notify)
+[2022.05.05-06.21.55:107][726]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=14.09 Y=-31.09 Z=0.00 Location: X=24786.16 Y=27763.45 Z=90.11 Normal: X=-0.41 Y=0.91 Z=0.00 PenetrationDepth:1.454 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:Spine2 (30 other events since notify)
+[2022.05.05-06.21.56:141][788]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=14.09 Y=-31.09 Z=0.00 Location: X=24786.16 Y=27763.45 Z=90.11 Normal: X=-0.41 Y=0.91 Z=0.00 PenetrationDepth:1.454 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:Spine2 (30 other events since notify)
+[2022.05.05-06.21.57:773][886]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=-269.96 Y=-41.10 Z=0.00 Location: X=24765.15 Y=27774.76 Z=88.04 Normal: X=-0.22 Y=0.87 Z=-0.44 PenetrationDepth:3.858 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:Head (30 other events since notify)
+[2022.05.05-06.21.58:475][928]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=203.27 Y=-258.10 Z=0.00 Location: X=23494.29 Y=23370.96 Z=89.97 Normal: X=-1.00 Y=-0.03 Z=-0.00 PenetrationDepth:0.718 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftArm (0 other events since notify)
+[2022.05.05-06.21.58:491][929]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=-10.06 Y=-399.87 Z=0.00 Location: X=23524.84 Y=23463.90 Z=89.94 Normal: X=-0.96 Y=-0.28 Z=0.00 PenetrationDepth:1.289 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftArm (0 other events since notify)
+[2022.05.05-06.21.58:492][929]LogCharacterMovement: SimpleAI18_3043 is stuck and failed to move! Velocity: X=-32.95 Y=176.92 Z=0.00 Location: X=23494.10 Y=23150.07 Z=88.02 Normal: X=-0.54 Y=-0.83 Z=-0.16 PenetrationDepth:0.166 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.21.58:658][939]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-323.72 Y=-84.90 Z=0.00 Location: X=23566.25 Y=23361.78 Z=88.09 Normal: X=-0.32 Y=-0.78 Z=-0.54 PenetrationDepth:20.633 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:RightHand (14 other events since notify)
+[2022.05.05-06.21.58:792][947]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=-201.70 Y=-35.48 Z=0.00 Location: X=24732.11 Y=27782.79 Z=90.15 Normal: X=-0.28 Y=0.96 Z=0.00 PenetrationDepth:3.964 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:RightShoulder (49 other events since notify)
+[2022.05.05-06.21.58:874][952]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-13.96 Y=-31.15 Z=0.00 Location: X=23551.00 Y=23415.72 Z=90.20 Normal: X=0.99 Y=0.13 Z=0.00 PenetrationDepth:4.770 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightHand (7 other events since notify)
+[2022.05.05-06.21.58:942][956]LogCharacterMovement: SimpleAI22_3691 is stuck and failed to move! Velocity: X=-184.08 Y=187.75 Z=0.00 Location: X=24759.03 Y=27727.73 Z=88.06 Normal: X=0.07 Y=-0.89 Z=-0.44 PenetrationDepth:1.170 Actor:SimpleAI8_1385 Component:CharacterMesh0 BoneName:Head (0 other events since notify)
+[2022.05.05-06.21.59:024][961]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=78.36 Y=-392.25 Z=0.00 Location: X=23489.47 Y=23170.84 Z=90.39 Normal: X=-0.01 Y=-1.00 Z=0.00 PenetrationDepth:16.234 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightHand (2 other events since notify)
+[2022.05.05-06.21.59:957][ 17]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=15.96 Y=-30.18 Z=0.00 Location: X=23564.12 Y=23226.28 Z=90.15 Normal: X=-0.09 Y=1.00 Z=0.00 PenetrationDepth:4.257 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightArm (0 other events since notify)
+[2022.05.05-06.22.00:041][ 22]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=207.02 Y=-342.26 Z=0.00 Location: X=23518.34 Y=23171.85 Z=89.96 Normal: X=0.83 Y=0.56 Z=0.00 PenetrationDepth:31.078 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightHand (54 other events since notify)
+[2022.05.05-06.22.00:726][ 63]LogCharacterMovement: SimpleAI18_3043 is stuck and failed to move! Velocity: X=-98.55 Y=239.90 Z=0.00 Location: X=23579.66 Y=23116.02 Z=88.08 Normal: X=0.65 Y=-0.69 Z=-0.33 PenetrationDepth:6.480 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (2 other events since notify)
+[2022.05.05-06.22.00:974][ 78]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-169.08 Y=-362.51 Z=0.00 Location: X=23562.39 Y=23204.12 Z=88.05 Normal: X=0.82 Y=0.57 Z=-0.00 PenetrationDepth:3.470 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftHand (53 other events since notify)
+[2022.05.05-06.22.01:992][139]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=388.91 Y=-93.52 Z=0.00 Location: X=23566.66 Y=23198.30 Z=88.16 Normal: X=-0.52 Y=-0.80 Z=-0.28 PenetrationDepth:8.177 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightHand (57 other events since notify)
+[2022.05.05-06.22.03:040][202]LogCharacterMovement: SimpleAI21_3466 is stuck and failed to move! Velocity: X=-41.22 Y=397.87 Z=0.00 Location: X=22300.10 Y=27925.19 Z=88.04 Normal: X=0.80 Y=-0.49 Z=-0.34 PenetrationDepth:7.366 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.22.13:525][831]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-57.00 Y=37.56 Z=0.00 Location: X=25744.38 Y=26713.46 Z=89.94 Normal: X=0.78 Y=0.62 Z=-0.00 PenetrationDepth:3.083 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftArm (5 other events since notify)
+[2022.05.05-06.22.13:608][836]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-382.00 Y=118.66 Z=0.00 Location: X=25776.43 Y=26648.53 Z=90.09 Normal: X=0.08 Y=-1.00 Z=0.00 PenetrationDepth:13.214 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightFoot (0 other events since notify)
+[2022.05.05-06.22.13:625][837]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-6.14 Y=84.39 Z=0.00 Location: X=25658.68 Y=26681.13 Z=90.35 Normal: X=0.26 Y=0.96 Z=0.00 PenetrationDepth:7.473 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.22.13:642][838]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-240.88 Y=319.34 Z=0.00 Location: X=25759.63 Y=26581.04 Z=85.83 Normal: X=0.97 Y=0.23 Z=0.00 PenetrationDepth:3.379 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightFoot (18 other events since notify)
+[2022.05.05-06.22.19:225][173]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=-25.12 Y=-23.11 Z=0.00 Location: X=23601.78 Y=26000.37 Z=90.15 Normal: X=-0.21 Y=-0.96 Z=-0.19 PenetrationDepth:21.248 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftHand (30 other events since notify)
+[2022.05.05-06.22.19:409][184]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-61.78 Y=-143.79 Z=0.00 Location: X=23669.57 Y=25993.56 Z=90.20 Normal: X=-0.98 Y=0.19 Z=0.00 PenetrationDepth:2.007 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:LeftHand (7 other events since notify)
+[2022.05.05-06.22.19:542][192]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-99.50 Y=-93.50 Z=0.00 Location: X=23489.61 Y=25898.58 Z=96.22 Normal: X=-0.59 Y=0.81 Z=0.00 PenetrationDepth:28.612 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.22.19:690][201]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-21.44 Y=-26.56 Z=0.00 Location: X=23550.26 Y=25955.81 Z=90.00 Normal: X=0.44 Y=-0.90 Z=0.00 PenetrationDepth:29.933 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (47 other events since notify)
+[2022.05.05-06.22.19:841][210]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-23.66 Y=-24.61 Z=0.00 Location: X=23648.49 Y=26049.95 Z=90.13 Normal: X=-0.79 Y=-0.61 Z=0.00 PenetrationDepth:13.324 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.22.20:161][229]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-31.03 Y=-14.22 Z=0.00 Location: X=23573.48 Y=25879.81 Z=90.15 Normal: X=0.51 Y=-0.86 Z=0.00 PenetrationDepth:5.557 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:Spine2 (0 other events since notify)
+[2022.05.05-06.22.20:244][234]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=-227.64 Y=-149.97 Z=0.00 Location: X=23593.18 Y=25984.63 Z=89.36 Normal: X=0.52 Y=-0.85 Z=0.00 PenetrationDepth:23.631 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (12 other events since notify)
+[2022.05.05-06.22.20:409][244]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-390.18 Y=-88.08 Z=0.00 Location: X=23657.29 Y=25911.06 Z=90.95 Normal: X=0.06 Y=1.00 Z=0.00 PenetrationDepth:12.072 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftArm (35 other events since notify)
+[2022.05.05-06.22.20:441][246]LogCharacterMovement: SimpleAI8_1385 is stuck and failed to move! Velocity: X=159.65 Y=174.67 Z=0.00 Location: X=27822.12 Y=26786.32 Z=90.15 Normal: X=-0.66 Y=-0.75 Z=0.00 PenetrationDepth:7.089 Actor:SimpleAI15_2488 Component:CharacterMesh0 BoneName:LeftArm (0 other events since notify)
+[2022.05.05-06.22.20:792][267]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-375.48 Y=85.78 Z=0.00 Location: X=23342.69 Y=25904.27 Z=90.05 Normal: X=-0.29 Y=-0.96 Z=0.00 PenetrationDepth:2.349 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightArm (23 other events since notify)
+[2022.05.05-06.22.21:592][315]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=-365.82 Y=161.78 Z=0.00 Location: X=23223.34 Y=26082.54 Z=90.09 Normal: X=-0.31 Y=-0.95 Z=0.00 PenetrationDepth:1.035 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightArm (11 other events since notify)
+[2022.05.05-06.22.21:858][331]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-357.67 Y=179.09 Z=0.00 Location: X=22960.58 Y=26139.87 Z=90.00 Normal: X=-0.45 Y=-0.89 Z=-0.00 PenetrationDepth:1.175 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightArm (11 other events since notify)
+[2022.05.05-06.22.25:291][537]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-268.02 Y=-296.93 Z=0.00 Location: X=21781.15 Y=25928.02 Z=88.01 Normal: X=-0.55 Y=-0.75 Z=-0.36 PenetrationDepth:10.125 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (21 other events since notify)
+[2022.05.05-06.22.25:659][559]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-235.25 Y=-261.01 Z=0.00 Location: X=21842.79 Y=25922.01 Z=88.18 Normal: X=0.29 Y=-0.90 Z=-0.33 PenetrationDepth:9.979 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightHand (1 other events since notify)
+[2022.05.05-06.22.27:074][644]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=44.62 Y=-397.50 Z=0.00 Location: X=21559.94 Y=25438.80 Z=90.15 Normal: X=-1.00 Y=-0.08 Z=0.00 PenetrationDepth:4.241 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:LeftArm (11 other events since notify)
+[2022.05.05-06.22.28:158][709]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=201.03 Y=-315.00 Z=0.00 Location: X=21650.37 Y=25047.62 Z=88.04 Normal: X=0.95 Y=0.25 Z=-0.17 PenetrationDepth:3.780 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (1 other events since notify)
+[2022.05.05-06.22.29:158][769]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=309.85 Y=-252.96 Z=0.00 Location: X=21937.13 Y=24848.09 Z=88.09 Normal: X=0.83 Y=0.54 Z=-0.14 PenetrationDepth:27.362 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (4 other events since notify)
+[2022.05.05-06.22.29:641][798]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=262.46 Y=-299.56 Z=0.00 Location: X=22181.85 Y=24861.25 Z=90.18 Normal: X=0.35 Y=0.94 Z=0.00 PenetrationDepth:1.141 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightArm (3 other events since notify)
+[2022.05.05-06.22.29:825][809]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-8.48 Y=-33.06 Z=0.00 Location: X=22313.62 Y=24879.77 Z=90.15 Normal: X=0.89 Y=0.46 Z=0.00 PenetrationDepth:5.212 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightArm (10 other events since notify)
+[2022.05.05-06.22.29:841][810]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=122.64 Y=-380.70 Z=0.00 Location: X=22104.24 Y=24744.63 Z=88.17 Normal: X=0.81 Y=0.50 Z=-0.29 PenetrationDepth:7.197 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.22.30:159][829]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=298.56 Y=-266.20 Z=0.00 Location: X=22188.28 Y=24775.49 Z=90.15 Normal: X=0.39 Y=0.92 Z=0.00 PenetrationDepth:1.633 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (11 other events since notify)
+[2022.05.05-06.22.39:075][364]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=12.94 Y=-31.59 Z=0.00 Location: X=24760.30 Y=23435.72 Z=90.15 Normal: X=-0.99 Y=-0.17 Z=0.00 PenetrationDepth:1.131 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:LeftArm (0 other events since notify)
+[2022.05.05-06.22.39:758][405]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=377.21 Y=82.39 Z=0.00 Location: X=24773.40 Y=23334.31 Z=88.55 Normal: X=0.13 Y=-0.98 Z=-0.12 PenetrationDepth:8.754 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.22.40:209][432]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-93.09 Y=-389.02 Z=0.00 Location: X=24788.07 Y=23092.05 Z=88.09 Normal: X=-0.75 Y=0.58 Z=-0.32 PenetrationDepth:13.488 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:LeftHand (6 other events since notify)
+[2022.05.05-06.22.40:609][456]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-149.21 Y=-371.13 Z=0.00 Location: X=24799.09 Y=22974.39 Z=90.04 Normal: X=0.39 Y=-0.92 Z=0.00 PenetrationDepth:1.105 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightHand (17 other events since notify)
+[2022.05.05-06.22.41:110][486]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=8.01 Y=-399.92 Z=0.00 Location: X=24697.47 Y=22917.27 Z=91.62 Normal: X=0.80 Y=0.58 Z=0.18 PenetrationDepth:0.409 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightFoot (3 other events since notify)
+[2022.05.05-06.22.41:209][492]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-35.80 Y=-398.39 Z=0.00 Location: X=24650.24 Y=22842.62 Z=89.99 Normal: X=-0.41 Y=0.91 Z=0.00 PenetrationDepth:13.478 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:LeftHand (14 other events since notify)
+[2022.05.05-06.22.41:608][516]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-178.37 Y=-358.03 Z=0.00 Location: X=24727.69 Y=22827.99 Z=90.15 Normal: X=0.91 Y=0.42 Z=-0.00 PenetrationDepth:4.727 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightArm (32 other events since notify)
+[2022.05.05-06.22.41:659][519]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=-196.21 Y=-332.26 Z=0.00 Location: X=24668.96 Y=22190.67 Z=88.16 Normal: X=-0.88 Y=-0.30 Z=-0.37 PenetrationDepth:17.803 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.22.42:259][555]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-187.92 Y=-353.11 Z=0.00 Location: X=24663.54 Y=22800.59 Z=91.26 Normal: X=0.02 Y=-1.00 Z=0.00 PenetrationDepth:0.825 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:Spine2 (41 other events since notify)
+[2022.05.05-06.22.44:641][698]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-12.54 Y=-310.23 Z=0.00 Location: X=24163.12 Y=22021.78 Z=89.94 Normal: X=-0.14 Y=0.99 Z=0.00 PenetrationDepth:7.654 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:LeftHand (13 other events since notify)
+[2022.05.05-06.22.44:642][698]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-244.54 Y=-316.54 Z=0.00 Location: X=24236.30 Y=22084.56 Z=91.34 Normal: X=-0.75 Y=0.66 Z=0.00 PenetrationDepth:0.876 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftArm (7 other events since notify)
+[2022.05.05-06.22.44:659][699]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-33.01 Y=-8.67 Z=0.00 Location: X=23968.53 Y=21803.35 Z=88.02 Normal: X=-0.88 Y=-0.47 Z=-0.08 PenetrationDepth:9.277 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.22.45:775][766]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-395.39 Y=-60.56 Z=0.00 Location: X=24052.44 Y=21878.36 Z=88.03 Normal: X=-0.69 Y=-0.52 Z=-0.50 PenetrationDepth:23.539 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:RightHand (4 other events since notify)
+[2022.05.05-06.22.48:575][934]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-325.36 Y=232.69 Z=0.00 Location: X=22429.56 Y=21913.04 Z=88.22 Normal: X=-0.79 Y=-0.61 Z=0.00 PenetrationDepth:13.304 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.22.49:159][969]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=39.71 Y=398.02 Z=0.00 Location: X=22199.31 Y=22131.18 Z=90.04 Normal: X=0.99 Y=-0.15 Z=0.00 PenetrationDepth:1.809 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:LeftArm (1 other events since notify)
+[2022.05.05-06.22.50:109][ 26]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=195.95 Y=348.72 Z=0.00 Location: X=22404.12 Y=22386.54 Z=90.00 Normal: X=-0.88 Y=0.48 Z=0.00 PenetrationDepth:2.821 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightHand (16 other events since notify)
+[2022.05.05-06.22.50:542][ 52]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=176.93 Y=358.74 Z=0.00 Location: X=22834.55 Y=22680.09 Z=89.93 Normal: X=0.63 Y=-0.78 Z=0.00 PenetrationDepth:4.628 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:LeftHand (3 other events since notify)
+[2022.05.05-06.22.52:025][141]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=269.77 Y=295.34 Z=0.00 Location: X=23097.52 Y=23138.85 Z=88.10 Normal: X=0.00 Y=0.96 Z=-0.28 PenetrationDepth:10.210 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightHand (8 other events since notify)
+[2022.05.05-06.22.52:242][154]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=268.25 Y=296.72 Z=0.00 Location: X=23128.45 Y=23099.61 Z=89.94 Normal: X=-0.87 Y=-0.49 Z=0.07 PenetrationDepth:4.613 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightLeg (0 other events since notify)
+[2022.05.05-06.22.53:025][201]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=261.91 Y=302.33 Z=0.00 Location: X=23336.07 Y=23423.85 Z=88.07 Normal: X=-0.18 Y=0.94 Z=-0.30 PenetrationDepth:19.007 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightHand (5 other events since notify)
+[2022.05.05-06.22.53:125][207]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=284.51 Y=281.17 Z=0.00 Location: X=23248.00 Y=23610.75 Z=88.17 Normal: X=-0.62 Y=0.73 Z=-0.29 PenetrationDepth:8.196 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (25 other events since notify)
+[2022.05.05-06.22.53:243][214]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=256.62 Y=306.83 Z=0.00 Location: X=23357.45 Y=23373.29 Z=88.07 Normal: X=-0.30 Y=-0.95 Z=-0.09 PenetrationDepth:35.773 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (8 other events since notify)
+[2022.05.05-06.22.53:591][235]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=23.12 Y=25.11 Z=0.00 Location: X=23299.13 Y=23426.08 Z=90.22 Normal: X=0.99 Y=-0.16 Z=0.00 PenetrationDepth:8.054 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:RightHand (6 other events since notify)
+[2022.05.05-06.22.55:675][360]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=317.83 Y=242.87 Z=0.00 Location: X=23826.10 Y=23784.32 Z=90.15 Normal: X=-0.46 Y=0.89 Z=0.00 PenetrationDepth:6.932 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightArm (50 other events since notify)
+[2022.05.05-06.22.57:625][477]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=354.13 Y=186.00 Z=0.00 Location: X=24506.09 Y=24116.23 Z=5.65 Normal: X=0.61 Y=-0.75 Z=-0.26 PenetrationDepth:4.556 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftHand (4 other events since notify)
+[2022.05.05-06.23.00:192][631]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=294.17 Y=271.05 Z=0.00 Location: X=25617.89 Y=25052.95 Z=0.88 Normal: X=0.19 Y=0.96 Z=-0.20 PenetrationDepth:12.144 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftHand (1 other events since notify)
+[2022.05.05-06.23.02:141][748]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-175.04 Y=273.27 Z=0.00 Location: X=25755.41 Y=25655.70 Z=2.92 Normal: X=-0.91 Y=-0.41 Z=-0.00 PenetrationDepth:3.017 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightArm (4 other events since notify)
+[2022.05.05-06.23.02:159][749]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=-208.41 Y=341.42 Z=0.00 Location: X=25600.46 Y=25689.72 Z=2.76 Normal: X=-0.78 Y=-0.63 Z=0.00 PenetrationDepth:3.548 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightArm (4 other events since notify)
+[2022.05.05-06.23.02:310][758]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-258.73 Y=299.73 Z=0.00 Location: X=25650.36 Y=25770.45 Z=2.91 Normal: X=0.77 Y=0.64 Z=-0.00 PenetrationDepth:4.742 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:LeftArm (4 other events since notify)
+[2022.05.05-06.23.02:409][764]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-129.96 Y=153.91 Z=0.00 Location: X=25539.22 Y=25646.81 Z=2.92 Normal: X=0.55 Y=0.83 Z=-0.00 PenetrationDepth:4.406 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftArm (7 other events since notify)
+[2022.05.05-06.23.04:175][870]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-343.32 Y=-174.95 Z=0.00 Location: X=24806.72 Y=25698.94 Z=0.97 Normal: X=-0.59 Y=0.78 Z=-0.19 PenetrationDepth:17.443 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:LeftHand (6 other events since notify)
+[2022.05.05-06.23.04:209][872]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-88.88 Y=-50.84 Z=0.00 Location: X=25007.10 Y=25657.96 Z=2.97 Normal: X=0.28 Y=-0.96 Z=0.00 PenetrationDepth:2.138 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightArm (23 other events since notify)
+[2022.05.05-06.23.04:525][891]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-147.22 Y=-187.92 Z=0.00 Location: X=24660.42 Y=25495.78 Z=2.74 Normal: X=-0.75 Y=0.66 Z=-0.05 PenetrationDepth:11.969 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftHand (20 other events since notify)
+[2022.05.05-06.23.05:910][974]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-116.67 Y=-382.61 Z=0.00 Location: X=24731.61 Y=25150.73 Z=2.87 Normal: X=0.94 Y=-0.33 Z=0.00 PenetrationDepth:1.519 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightArm (5 other events since notify)
+[2022.05.05-06.23.05:959][977]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-41.18 Y=-397.88 Z=0.00 Location: X=24540.92 Y=24972.88 Z=2.77 Normal: X=0.99 Y=-0.12 Z=0.00 PenetrationDepth:2.806 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:RightHand (1 other events since notify)
+[2022.05.05-06.23.05:976][978]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=-66.73 Y=-394.40 Z=0.00 Location: X=24633.73 Y=25165.78 Z=2.97 Normal: X=-0.93 Y=0.38 Z=0.00 PenetrationDepth:0.876 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:LeftArm (8 other events since notify)
+[2022.05.05-06.23.06:659][ 19]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=57.80 Y=-395.80 Z=0.00 Location: X=24646.16 Y=24782.50 Z=2.87 Normal: X=-0.90 Y=-0.43 Z=0.00 PenetrationDepth:12.234 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:LeftHand (2 other events since notify)
+[2022.05.05-06.23.07:109][ 46]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=132.54 Y=-377.40 Z=0.00 Location: X=24597.83 Y=24629.24 Z=2.95 Normal: X=0.90 Y=0.44 Z=-0.00 PenetrationDepth:0.013 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:RightArm (10 other events since notify)
+[2022.05.05-06.23.07:192][ 51]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=139.00 Y=-120.53 Z=0.00 Location: X=24699.89 Y=24719.31 Z=2.97 Normal: X=0.77 Y=-0.63 Z=0.00 PenetrationDepth:8.065 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:LeftHand (1 other events since notify)
+[2022.05.05-06.23.08:941][156]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=373.51 Y=-143.15 Z=0.00 Location: X=25070.21 Y=24121.00 Z=2.75 Normal: X=-0.85 Y=-0.53 Z=-0.00 PenetrationDepth:0.672 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:LeftArm (0 other events since notify)
+[2022.05.05-06.23.08:992][159]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=31.48 Y=-13.18 Z=0.00 Location: X=25111.19 Y=24189.44 Z=2.87 Normal: X=-0.79 Y=-0.62 Z=-0.00 PenetrationDepth:1.711 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:LeftArm (1 other events since notify)
+[2022.05.05-06.23.09:142][168]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=234.82 Y=-42.05 Z=0.00 Location: X=25324.05 Y=24040.26 Z=2.94 Normal: X=-0.39 Y=-0.92 Z=0.00 PenetrationDepth:5.510 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (31 other events since notify)
+[2022.05.05-06.23.10:093][225]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=326.90 Y=230.52 Z=0.00 Location: X=25526.89 Y=24289.21 Z=2.97 Normal: X=-0.71 Y=0.71 Z=0.00 PenetrationDepth:0.089 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightHand (3 other events since notify)
+[2022.05.05-06.23.10:126][227]LogCharacterMovement: SimpleAI5_732 is stuck and failed to move! Velocity: X=328.65 Y=228.01 Z=0.00 Location: X=25621.90 Y=24396.14 Z=2.97 Normal: X=-0.63 Y=0.78 Z=0.00 PenetrationDepth:6.449 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightArm (0 other events since notify)
+[2022.05.05-06.23.10:127][227]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=305.86 Y=257.78 Z=0.00 Location: X=25650.45 Y=24315.12 Z=2.93 Normal: X=-0.66 Y=0.75 Z=0.00 PenetrationDepth:2.565 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightHand (10 other events since notify)
+[2022.05.05-06.23.10:292][237]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=292.96 Y=272.35 Z=0.00 Location: X=25490.27 Y=24279.62 Z=0.82 Normal: X=0.57 Y=-0.80 Z=-0.21 PenetrationDepth:0.867 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (10 other events since notify)
+[2022.05.05-06.23.10:293][237]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=62.86 Y=80.83 Z=0.00 Location: X=25709.72 Y=24254.49 Z=2.73 Normal: X=0.35 Y=-0.94 Z=0.00 PenetrationDepth:0.501 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftArm (3 other events since notify)
+[2022.05.05-06.23.10:327][239]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=306.83 Y=256.63 Z=0.00 Location: X=25563.10 Y=24454.24 Z=2.76 Normal: X=-0.97 Y=0.23 Z=0.00 PenetrationDepth:1.790 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:RightArm (2 other events since notify)
+[2022.05.05-06.23.10:359][241]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=243.51 Y=317.34 Z=0.00 Location: X=25637.15 Y=24245.05 Z=3.07 Normal: X=-0.91 Y=0.41 Z=0.05 PenetrationDepth:0.135 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightLeg (0 other events since notify)
+[2022.05.05-06.23.15:926][575]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=110.30 Y=216.04 Z=0.00 Location: X=26359.96 Y=26163.07 Z=90.33 Normal: X=0.59 Y=0.80 Z=0.00 PenetrationDepth:9.763 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftHand (26 other events since notify)
+[2022.05.05-06.23.20:375][842]LogCharacterMovement: SimpleAI16_2693 is stuck and failed to move! Velocity: X=-385.16 Y=-15.94 Z=0.00 Location: X=23799.92 Y=27982.52 Z=88.09 Normal: X=0.85 Y=0.50 Z=-0.15 PenetrationDepth:11.261 Actor:SimpleAI15_2488 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.23.21:492][909]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=30.42 Y=15.48 Z=0.00 Location: X=27027.48 Y=28276.16 Z=89.98 Normal: X=-0.98 Y=0.19 Z=0.00 PenetrationDepth:11.039 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.23.21:593][915]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=-31.10 Y=398.79 Z=0.00 Location: X=27088.93 Y=28241.36 Z=90.15 Normal: X=-1.00 Y=-0.08 Z=0.00 PenetrationDepth:11.582 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightHand (42 other events since notify)
+[2022.05.05-06.23.21:643][918]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=203.76 Y=247.14 Z=0.00 Location: X=26958.40 Y=28213.23 Z=88.18 Normal: X=-0.48 Y=-0.80 Z=-0.35 PenetrationDepth:16.793 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightHand (6 other events since notify)
+[2022.05.05-06.23.21:910][934]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-302.95 Y=261.19 Z=0.00 Location: X=27102.89 Y=28622.83 Z=90.10 Normal: X=-0.06 Y=-1.00 Z=0.00 PenetrationDepth:0.032 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightArm (25 other events since notify)
+[2022.05.05-06.23.21:975][938]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=34.20 Y=59.08 Z=0.00 Location: X=27033.31 Y=28205.40 Z=90.85 Normal: X=0.65 Y=-0.76 Z=0.00 PenetrationDepth:3.550 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightArm (38 other events since notify)
+[2022.05.05-06.23.22:075][944]LogCharacterMovement: SimpleAI5_732 is stuck and failed to move! Velocity: X=-352.76 Y=188.58 Z=0.00 Location: X=27160.54 Y=28590.81 Z=90.15 Normal: X=0.84 Y=-0.44 Z=0.32 PenetrationDepth:1.389 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:RightFoot (27 other events since notify)
+[2022.05.05-06.23.22:328][959]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-363.38 Y=167.19 Z=0.00 Location: X=27066.78 Y=28539.85 Z=89.93 Normal: X=-0.36 Y=-0.93 Z=0.00 PenetrationDepth:0.934 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:RightArm (5 other events since notify)
+[2022.05.05-06.23.22:510][970]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=-133.35 Y=-29.29 Z=0.00 Location: X=27024.46 Y=28275.06 Z=89.97 Normal: X=-0.99 Y=-0.13 Z=0.00 PenetrationDepth:4.724 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightArm (18 other events since notify)
+[2022.05.05-06.23.22:759][985]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-373.91 Y=142.09 Z=0.00 Location: X=26802.46 Y=28635.75 Z=89.99 Normal: X=0.62 Y=0.78 Z=0.00 PenetrationDepth:3.182 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.23.23:175][ 10]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=125.50 Y=224.82 Z=0.00 Location: X=27068.71 Y=28407.90 Z=90.15 Normal: X=-1.00 Y=-0.01 Z=0.00 PenetrationDepth:5.213 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.23.23:425][ 25]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-378.23 Y=130.17 Z=0.00 Location: X=26724.41 Y=28674.81 Z=90.15 Normal: X=-0.46 Y=-0.89 Z=0.00 PenetrationDepth:2.153 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:RightArm (2 other events since notify)
+[2022.05.05-06.23.27:725][283]LogCharacterMovement: SimpleAI16_2693 is stuck and failed to move! Velocity: X=-136.34 Y=-7.16 Z=0.00 Location: X=24218.29 Y=28003.66 Z=88.06 Normal: X=0.60 Y=-0.55 Z=-0.58 PenetrationDepth:2.461 Actor:SimpleAI15_2488 Component:CharacterMesh0 BoneName:Head (2 other events since notify)
+[2022.05.05-06.23.30:408][444]LogCharacterMovement: SimpleAI16_2693 is stuck and failed to move! Velocity: X=-115.51 Y=-382.96 Z=0.00 Location: X=23719.31 Y=27653.20 Z=88.15 Normal: X=0.54 Y=0.76 Z=-0.36 PenetrationDepth:11.603 Actor:SimpleAI21_3466 Component:CharacterMesh0 BoneName:RightHand (4 other events since notify)
+[2022.05.05-06.23.30:692][461]LogCharacterMovement: SimpleAI21_3466 is stuck and failed to move! Velocity: X=177.03 Y=160.46 Z=0.00 Location: X=23719.25 Y=27571.06 Z=88.03 Normal: X=-0.17 Y=-0.95 Z=-0.25 PenetrationDepth:0.114 Actor:SimpleAI16_2693 Component:CharacterMesh0 BoneName:RightHand (5 other events since notify)
+[2022.05.05-06.23.32:925][595]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-238.59 Y=-11.91 Z=0.00 Location: X=23104.66 Y=29082.92 Z=88.12 Normal: X=0.12 Y=0.96 Z=-0.24 PenetrationDepth:9.060 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (1 other events since notify)
+[2022.05.05-06.23.33:142][608]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-379.95 Y=-125.06 Z=0.00 Location: X=23009.48 Y=29182.49 Z=90.15 Normal: X=-1.00 Y=0.04 Z=0.00 PenetrationDepth:8.332 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.23.33:491][629]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-384.04 Y=-111.88 Z=0.00 Location: X=22644.30 Y=28988.03 Z=89.92 Normal: X=0.36 Y=-0.93 Z=0.00 PenetrationDepth:8.326 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightArm (4 other events since notify)
+[2022.05.05-06.23.33:659][639]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=11.35 Y=-88.61 Z=0.00 Location: X=22609.33 Y=29054.54 Z=90.12 Normal: X=-0.40 Y=-0.91 Z=-0.01 PenetrationDepth:5.265 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:LeftHand (3 other events since notify)
+[2022.05.05-06.23.33:676][640]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-33.28 Y=-13.91 Z=0.00 Location: X=22727.73 Y=29018.13 Z=90.15 Normal: X=-0.92 Y=-0.39 Z=0.00 PenetrationDepth:1.635 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:LeftHand (19 other events since notify)
+[2022.05.05-06.23.34:110][666]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=-169.71 Y=-108.23 Z=0.00 Location: X=22763.35 Y=28953.78 Z=90.15 Normal: X=-0.74 Y=0.66 Z=-0.16 PenetrationDepth:0.035 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (4 other events since notify)
+[2022.05.05-06.23.34:160][669]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-136.05 Y=-101.92 Z=0.00 Location: X=22754.40 Y=29092.37 Z=88.38 Normal: X=0.82 Y=-0.58 Z=0.00 PenetrationDepth:0.655 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:RightArm (7 other events since notify)
+[2022.05.05-06.23.34:176][670]LogCharacterMovement: SimpleAI5_732 is stuck and failed to move! Velocity: X=-81.72 Y=-122.52 Z=0.00 Location: X=22813.31 Y=29055.06 Z=90.15 Normal: X=-0.53 Y=0.85 Z=0.00 PenetrationDepth:1.260 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:LeftHand (1 other events since notify)
+[2022.05.05-06.23.34:359][681]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-86.71 Y=-54.47 Z=0.00 Location: X=22872.52 Y=29025.18 Z=90.15 Normal: X=-0.77 Y=0.63 Z=-0.00 PenetrationDepth:1.882 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftArm (1 other events since notify)
+[2022.05.05-06.23.36:127][787]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-215.85 Y=-336.76 Z=0.00 Location: X=22237.73 Y=28446.79 Z=90.15 Normal: X=-0.81 Y=0.59 Z=0.00 PenetrationDepth:2.033 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:LeftArm (25 other events since notify)
+[2022.05.05-06.23.42:725][183]LogCharacterMovement: SimpleAI3_522 is stuck and failed to move! Velocity: X=66.05 Y=-300.08 Z=0.00 Location: X=27894.43 Y=28176.81 Z=88.07 Normal: X=-0.94 Y=0.20 Z=-0.27 PenetrationDepth:5.685 Actor:SimpleAI18_3043 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.23.42:826][189]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=129.73 Y=-378.38 Z=0.00 Location: X=21809.80 Y=25708.61 Z=89.91 Normal: X=0.94 Y=0.34 Z=0.00 PenetrationDepth:2.342 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightHand (29 other events since notify)
+[2022.05.05-06.23.42:844][190]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=31.26 Y=-97.51 Z=0.00 Location: X=21875.16 Y=25742.89 Z=90.09 Normal: X=-0.86 Y=-0.51 Z=-0.00 PenetrationDepth:15.246 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.23.43:159][209]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=123.53 Y=-245.76 Z=0.00 Location: X=21853.19 Y=25816.76 Z=90.15 Normal: X=-0.08 Y=1.00 Z=0.05 PenetrationDepth:7.487 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:LeftFoot (0 other events since notify)
+[2022.05.05-06.23.43:309][218]LogCharacterMovement: SimpleAI22_3691 is stuck and failed to move! Velocity: X=-115.89 Y=-220.49 Z=0.00 Location: X=21961.15 Y=25904.02 Z=90.17 Normal: X=0.93 Y=0.37 Z=0.00 PenetrationDepth:3.025 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightHand (2 other events since notify)
+[2022.05.05-06.23.43:659][239]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=42.02 Y=-243.59 Z=0.00 Location: X=21837.61 Y=25857.00 Z=88.18 Normal: X=-0.94 Y=-0.15 Z=-0.32 PenetrationDepth:10.935 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:LeftHand (7 other events since notify)
+[2022.05.05-06.23.43:660][239]LogCharacterMovement: SimpleAI11_1902 is stuck and failed to move! Velocity: X=-399.88 Y=-9.73 Z=0.00 Location: X=21875.86 Y=25535.29 Z=89.75 Normal: X=-0.22 Y=-0.97 Z=-0.06 PenetrationDepth:0.242 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.23.43:693][241]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=248.88 Y=-313.14 Z=0.00 Location: X=21821.49 Y=25618.51 Z=88.06 Normal: X=-0.69 Y=-0.71 Z=-0.14 PenetrationDepth:5.206 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (25 other events since notify)
+[2022.05.05-06.23.43:942][256]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=189.85 Y=-204.88 Z=0.00 Location: X=21867.83 Y=25661.60 Z=90.01 Normal: X=0.65 Y=0.76 Z=-0.00 PenetrationDepth:0.936 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:RightArm (6 other events since notify)
+[2022.05.05-06.23.44:126][267]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=281.36 Y=-252.70 Z=0.00 Location: X=21759.36 Y=25430.44 Z=90.15 Normal: X=0.60 Y=0.80 Z=0.00 PenetrationDepth:1.280 Actor:SimpleAI10_1717 Component:CharacterMesh0 BoneName:RightArm (0 other events since notify)
+[2022.05.05-06.23.44:776][306]LogCharacterMovement: SimpleAI11_1902 is stuck and failed to move! Velocity: X=-399.22 Y=25.05 Z=0.00 Location: X=21888.61 Y=25331.99 Z=88.27 Normal: X=0.14 Y=-0.96 Z=-0.23 PenetrationDepth:13.708 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightHand (2 other events since notify)
+[2022.05.05-06.23.45:160][329]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=375.38 Y=-115.38 Z=0.00 Location: X=21765.62 Y=25336.01 Z=88.70 Normal: X=-0.90 Y=0.44 Z=0.00 PenetrationDepth:16.700 Actor:SimpleAI11_1902 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.23.46:958][437]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=399.69 Y=15.63 Z=0.00 Location: X=23084.14 Y=24697.73 Z=89.98 Normal: X=-0.97 Y=-0.23 Z=0.00 PenetrationDepth:5.635 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.23.47:193][451]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=235.65 Y=-171.32 Z=0.00 Location: X=23075.61 Y=24761.62 Z=89.99 Normal: X=0.89 Y=0.46 Z=0.00 PenetrationDepth:8.800 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.23.47:292][457]LogCharacterMovement: SimpleAI5_732 is stuck and failed to move! Velocity: X=238.22 Y=-321.33 Z=0.00 Location: X=23168.95 Y=24805.51 Z=88.18 Normal: X=0.88 Y=-0.33 Z=-0.34 PenetrationDepth:16.930 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightHand (9 other events since notify)
+[2022.05.05-06.23.47:359][461]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=252.19 Y=-310.49 Z=0.00 Location: X=23104.79 Y=24823.16 Z=90.12 Normal: X=0.61 Y=0.79 Z=0.05 PenetrationDepth:0.106 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightFoot (38 other events since notify)
+[2022.05.05-06.23.47:509][470]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=53.85 Y=-118.42 Z=0.00 Location: X=23061.37 Y=24731.02 Z=90.15 Normal: X=0.98 Y=-0.15 Z=-0.09 PenetrationDepth:3.648 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (3 other events since notify)
+[2022.05.05-06.23.47:575][474]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=156.76 Y=-368.00 Z=0.00 Location: X=23077.83 Y=24850.81 Z=89.99 Normal: X=1.00 Y=-0.02 Z=-0.03 PenetrationDepth:2.144 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:LeftHand (4 other events since notify)
+[2022.05.05-06.23.49:758][605]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=289.20 Y=-276.34 Z=0.00 Location: X=23567.93 Y=24210.66 Z=88.10 Normal: X=0.77 Y=-0.59 Z=-0.25 PenetrationDepth:12.139 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftHand (2 other events since notify)
+[2022.05.05-06.23.53:142][808]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=329.17 Y=44.28 Z=0.00 Location: X=24544.72 Y=22882.53 Z=90.12 Normal: X=0.09 Y=-1.00 Z=-0.04 PenetrationDepth:2.700 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftHand (8 other events since notify)
+[2022.05.05-06.24.32:029][141]LogActorComponent:Error: May not destroy component AudioComponent /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.WorldSettings_1.AudioComponent_2 owned by WorldSettings /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.WorldSettings_1.
+[2022.05.05-06.24.54:694][501]LogActorComponent:Error: May not destroy component AudioComponent /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.WorldSettings_1.AudioComponent_6 owned by WorldSettings /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.WorldSettings_1.
+[2022.05.05-06.24.55:477][548]LogActorComponent:Error: May not destroy component AudioComponent /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.WorldSettings_1.AudioComponent_7 owned by WorldSettings /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.WorldSettings_1.
+[2022.05.05-06.25.44:327][479]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=954.83 Y=294.49 Z=0.00 Location: X=23627.63 Y=22512.53 Z=98.15 Normal: X=0.11 Y=0.99 Z=0.00 PenetrationDepth:8.682 Actor:SimpleAI10_1717 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.25.44:994][519]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-396.86 Y=-50.04 Z=0.00 Location: X=23808.41 Y=22529.63 Z=90.12 Normal: X=0.30 Y=-0.95 Z=0.00 PenetrationDepth:2.195 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:RightArm (3 other events since notify)
+[2022.05.05-06.25.45:578][554]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-115.20 Y=24.59 Z=0.00 Location: X=23714.13 Y=22346.82 Z=90.01 Normal: X=-0.25 Y=0.93 Z=-0.28 PenetrationDepth:6.767 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightHand (3 other events since notify)
+[2022.05.05-06.25.45:761][565]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-67.18 Y=137.27 Z=0.00 Location: X=23769.77 Y=22303.06 Z=90.03 Normal: X=-0.73 Y=-0.68 Z=0.00 PenetrationDepth:5.640 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:RightHand (2 other events since notify)
+[2022.05.05-06.25.46:011][580]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-170.17 Y=-12.64 Z=0.00 Location: X=23784.14 Y=22499.45 Z=90.00 Normal: X=-0.68 Y=-0.73 Z=-0.03 PenetrationDepth:9.088 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:Spine2 (22 other events since notify)
+[2022.05.05-06.25.46:161][589]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-28.02 Y=-19.49 Z=0.00 Location: X=23726.26 Y=22535.57 Z=90.15 Normal: X=0.92 Y=-0.40 Z=0.00 PenetrationDepth:38.124 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:RightHand (3 other events since notify)
+[2022.05.05-06.25.46:162][589]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-387.04 Y=100.98 Z=0.00 Location: X=23802.82 Y=22423.88 Z=90.15 Normal: X=0.25 Y=0.97 Z=0.00 PenetrationDepth:18.253 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:LeftHand (15 other events since notify)
+[2022.05.05-06.25.46:295][597]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-239.01 Y=-70.70 Z=0.00 Location: X=23719.63 Y=22603.55 Z=89.94 Normal: X=0.87 Y=-0.50 Z=0.00 PenetrationDepth:5.112 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:RightHand (2 other events since notify)
+[2022.05.05-06.25.46:445][606]LogCharacterMovement: SimpleAI22_3691 is stuck and failed to move! Velocity: X=6.25 Y=-76.80 Z=0.00 Location: X=23623.81 Y=22572.23 Z=90.12 Normal: X=-0.90 Y=0.43 Z=0.00 PenetrationDepth:4.534 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftHand (7 other events since notify)
+[2022.05.05-06.25.46:695][621]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-22.93 Y=25.28 Z=0.00 Location: X=23689.34 Y=22421.96 Z=88.09 Normal: X=0.68 Y=0.74 Z=0.00 PenetrationDepth:27.662 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:LeftHand (6 other events since notify)
+[2022.05.05-06.25.46:778][626]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-111.94 Y=78.18 Z=0.00 Location: X=23781.11 Y=22383.26 Z=90.15 Normal: X=0.64 Y=0.77 Z=0.00 PenetrationDepth:3.189 Actor:SimpleAI5_732 Component:CharacterMesh0 BoneName:LeftHand (18 other events since notify)
+[2022.05.05-06.25.46:798][627]LogCharacterMovement: SimpleAI21_3466 is stuck and failed to move! Velocity: X=-40.15 Y=26.29 Z=0.00 Location: X=23899.29 Y=22468.59 Z=90.20 Normal: X=0.93 Y=0.12 Z=0.34 PenetrationDepth:5.359 Actor:SimpleAI12_2061 Component:CharacterMesh0 BoneName:LeftLeg (3 other events since notify)
+[2022.05.05-06.25.47:095][645]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-13.23 Y=31.47 Z=0.00 Location: X=23686.19 Y=22353.96 Z=89.95 Normal: X=-0.97 Y=-0.25 Z=0.00 PenetrationDepth:11.366 Actor:SimpleAI6_921 Component:CharacterMesh0 BoneName:RightHand (35 other events since notify)
+[2022.05.05-06.25.47:195][651]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-398.70 Y=32.22 Z=0.00 Location: X=23768.71 Y=22475.82 Z=90.04 Normal: X=0.40 Y=-0.92 Z=0.00 PenetrationDepth:6.206 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (35 other events since notify)
+[2022.05.05-06.25.47:311][658]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-131.45 Y=-199.54 Z=0.00 Location: X=23688.19 Y=22575.24 Z=90.15 Normal: X=0.96 Y=-0.27 Z=-0.05 PenetrationDepth:0.329 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:Spine2 (34 other events since notify)
+[2022.05.05-06.25.47:328][659]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=-386.67 Y=102.40 Z=0.00 Location: X=23838.08 Y=22432.12 Z=88.97 Normal: X=-0.93 Y=-0.37 Z=0.00 PenetrationDepth:3.010 Actor:SimpleAI18_3043 Component:CharacterMesh0 BoneName:RightHand (12 other events since notify)
+[2022.05.05-06.25.47:413][664]LogCharacterMovement: SimpleAI18_3043 is stuck and failed to move! Velocity: X=-201.25 Y=8.56 Z=0.00 Location: X=23908.71 Y=22497.41 Z=88.15 Normal: X=0.81 Y=0.21 Z=-0.55 PenetrationDepth:2.543 Actor:SimpleAI21_3466 Component:CharacterMesh0 BoneName:LeftFoot (18 other events since notify)
+[2022.05.05-06.25.47:711][682]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-22.57 Y=25.60 Z=0.00 Location: X=23686.62 Y=22423.16 Z=88.08 Normal: X=-0.42 Y=-0.91 Z=-0.04 PenetrationDepth:1.654 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:Spine2 (34 other events since notify)
+[2022.05.05-06.25.47:795][687]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-307.16 Y=256.23 Z=0.00 Location: X=23759.81 Y=22379.04 Z=90.14 Normal: X=0.31 Y=-0.95 Z=0.00 PenetrationDepth:13.724 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (56 other events since notify)
+[2022.05.05-06.25.47:811][688]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-232.20 Y=-143.59 Z=0.00 Location: X=23775.63 Y=22575.94 Z=89.96 Normal: X=-0.88 Y=0.45 Z=-0.12 PenetrationDepth:0.370 Actor:SimpleAI21_3466 Component:CharacterMesh0 BoneName:LeftFoot (27 other events since notify)
+[2022.05.05-06.25.47:945][696]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=-1.52 Y=-68.25 Z=0.00 Location: X=23637.43 Y=22620.97 Z=90.15 Normal: X=0.95 Y=0.32 Z=0.00 PenetrationDepth:4.569 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:RightArm (4 other events since notify)
+[2022.05.05-06.25.48:194][711]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-14.90 Y=210.98 Z=0.00 Location: X=23650.90 Y=22364.57 Z=90.32 Normal: X=0.88 Y=-0.48 Z=0.00 PenetrationDepth:1.365 Actor:SimpleAI10_1717 Component:CharacterMesh0 BoneName:LeftArm (44 other events since notify)
+[2022.05.05-06.25.48:346][720]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-34.10 Y=1.58 Z=0.00 Location: X=23769.41 Y=22480.73 Z=90.03 Normal: X=-0.10 Y=-0.99 Z=0.00 PenetrationDepth:37.761 Actor:SimpleAI18_3043 Component:CharacterMesh0 BoneName:RightHand (53 other events since notify)
+[2022.05.05-06.25.48:363][721]LogCharacterMovement: SimpleAI19_3234 is stuck and failed to move! Velocity: X=-15.56 Y=-30.38 Z=0.00 Location: X=23673.94 Y=22572.60 Z=90.15 Normal: X=0.80 Y=-0.60 Z=0.00 PenetrationDepth:2.799 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (17 other events since notify)
+[2022.05.05-06.25.48:545][732]LogCharacterMovement: SimpleAI10_1717 is stuck and failed to move! Velocity: X=44.34 Y=-21.94 Z=0.00 Location: X=23596.30 Y=22418.89 Z=90.13 Normal: X=-0.71 Y=0.39 Z=0.59 PenetrationDepth:7.952 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightFoot (3 other events since notify)
+[2022.05.05-06.25.48:629][737]LogCharacterMovement: SimpleAI18_3043 is stuck and failed to move! Velocity: X=-232.70 Y=-28.62 Z=0.00 Location: X=23822.20 Y=22527.57 Z=89.45 Normal: X=0.41 Y=-0.91 Z=0.00 PenetrationDepth:7.247 Actor:SimpleAI21_3466 Component:CharacterMesh0 BoneName:RightHand (7 other events since notify)
+[2022.05.05-06.25.48:831][749]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-122.25 Y=-119.09 Z=0.00 Location: X=23739.18 Y=22593.36 Z=90.15 Normal: X=-0.95 Y=0.32 Z=-0.00 PenetrationDepth:17.695 Actor:SimpleAI21_3466 Component:CharacterMesh0 BoneName:LeftHand (26 other events since notify)
+[2022.05.05-06.25.48:961][757]LogCharacterMovement: SimpleAI2_377 is stuck and failed to move! Velocity: X=142.83 Y=-373.63 Z=0.00 Location: X=23596.99 Y=22573.98 Z=90.12 Normal: X=-0.94 Y=-0.33 Z=0.00 PenetrationDepth:0.644 Actor:SimpleAI19_3234 Component:CharacterMesh0 BoneName:LeftArm (2 other events since notify)
+[2022.05.05-06.25.49:027][761]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-77.16 Y=67.27 Z=0.00 Location: X=23745.88 Y=22391.05 Z=90.91 Normal: X=1.00 Y=0.01 Z=0.00 PenetrationDepth:2.225 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:LeftHand (36 other events since notify)
+[2022.05.05-06.25.49:194][771]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-22.86 Y=25.34 Z=0.00 Location: X=23681.45 Y=22430.34 Z=90.15 Normal: X=0.25 Y=-0.97 Z=0.00 PenetrationDepth:11.892 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:RightHand (25 other events since notify)
+[2022.05.05-06.25.49:362][781]LogCharacterMovement: SimpleAI14_2313 is stuck and failed to move! Velocity: X=-6.39 Y=74.61 Z=0.00 Location: X=23638.07 Y=22363.16 Z=90.62 Normal: X=-1.00 Y=0.00 Z=0.00 PenetrationDepth:1.528 Actor:SimpleAI20_3333 Component:CharacterMesh0 BoneName:Spine2 (46 other events since notify)
+[2022.05.05-06.25.51:683][912]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.05-06.25.51:696][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.05-06.25.51:697][912]PIE: New page: PIE session: MainLevel (May 4, 2022, 10:25:51 PM)
+[2022.05.05-06.25.51:697][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2022.05.05-06.25.51:713][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016449s)
+[2022.05.05-06.25.51:714][912]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.05-06.25.51:714][912]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2022.05.05-06.25.51:715][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.017576s)
+[2022.05.05-06.25.51:763][912]LogInit: XAudio2 using 'Speakers (USBAudio2.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.05-06.25.51:775][912]LogInit: FAudioDevice initialized.
+[2022.05.05-06.25.51:812][912]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.05-06.25.51:822][912]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2022.05.05-02.25.51
+[2022.05.05-06.25.51:825][912]LogWorld: Bringing up level for play took: 0.011619
+[2022.05.05-06.25.51:832][912]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2022.05.05-06.25.51:832][912]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLevel -0.569
+[2022.05.05-06.25.57:186][232]LogCharacterMovement: SimpleAI15_2488 is stuck and failed to move! Velocity: X=-32.20 Y=11.32 Z=0.00 Location: X=22225.71 Y=27423.11 Z=90.15 Normal: X=0.75 Y=0.66 Z=-0.00 PenetrationDepth:17.977 Actor:SimpleAI22_3691 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.25.57:452][248]LogCharacterMovement: SimpleAI22_3691 is stuck and failed to move! Velocity: X=28.72 Y=-18.44 Z=0.00 Location: X=22159.83 Y=27462.04 Z=90.09 Normal: X=0.06 Y=0.96 Z=-0.26 PenetrationDepth:4.571 Actor:SimpleAI15_2488 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.26.08:386][904]LogCharacterMovement: SimpleAI3_522 is stuck and failed to move! Velocity: X=-308.34 Y=-254.80 Z=0.00 Location: X=24837.68 Y=29907.18 Z=88.79 Normal: X=0.19 Y=0.95 Z=-0.27 PenetrationDepth:3.513 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.26.11:736][105]LogCharacterMovement: SimpleAI9_1562 is stuck and failed to move! Velocity: X=310.54 Y=252.12 Z=0.00 Location: X=24024.28 Y=28807.57 Z=88.05 Normal: X=-0.70 Y=-0.67 Z=-0.26 PenetrationDepth:8.326 Actor:SimpleAI3_522 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.26.14:504][271]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=224.68 Y=330.94 Z=0.00 Location: X=23570.11 Y=26353.00 Z=90.14 Normal: X=-0.60 Y=-0.80 Z=0.00 PenetrationDepth:2.730 Actor:SimpleAI_144 Component:CharacterMesh0 BoneName:Spine2 (0 other events since notify)
+[2022.05.05-06.26.15:585][336]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-191.73 Y=-351.05 Z=0.00 Location: X=23556.85 Y=26408.77 Z=88.08 Normal: X=0.97 Y=0.10 Z=-0.22 PenetrationDepth:2.728 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.26.18:504][511]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-302.10 Y=-262.18 Z=0.00 Location: X=23628.72 Y=26540.52 Z=89.98 Normal: X=-0.18 Y=0.98 Z=0.00 PenetrationDepth:1.894 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (5 other events since notify)
+[2022.05.05-06.26.19:535][573]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-29.96 Y=-16.36 Z=0.00 Location: X=23617.53 Y=26541.02 Z=89.91 Normal: X=-0.28 Y=0.96 Z=0.00 PenetrationDepth:25.434 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (24 other events since notify)
+[2022.05.05-06.26.20:553][634]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-229.05 Y=-204.72 Z=0.00 Location: X=23635.59 Y=26540.78 Z=90.15 Normal: X=0.52 Y=0.85 Z=-0.03 PenetrationDepth:0.632 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:Spine2 (35 other events since notify)
+[2022.05.05-06.26.21:570][695]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-298.24 Y=-266.56 Z=0.00 Location: X=23635.59 Y=26540.78 Z=90.15 Normal: X=0.52 Y=0.85 Z=-0.03 PenetrationDepth:0.632 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:Spine2 (60 other events since notify)
+[2022.05.05-06.26.22:570][755]LogCharacterMovement: SimpleAI_144 is stuck and failed to move! Velocity: X=-157.47 Y=-131.04 Z=0.00 Location: X=23636.32 Y=26540.90 Z=89.85 Normal: X=0.17 Y=0.99 Z=0.00 PenetrationDepth:13.826 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (56 other events since notify)
+[2022.05.05-06.26.27:119][ 28]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=33.48 Y=6.63 Z=0.00 Location: X=23152.48 Y=24113.26 Z=90.15 Normal: X=0.98 Y=0.20 Z=0.00 PenetrationDepth:5.232 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightArm (0 other events since notify)
+[2022.05.05-06.26.27:703][ 63]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-88.80 Y=-357.54 Z=0.00 Location: X=23439.83 Y=24070.71 Z=89.98 Normal: X=0.97 Y=-0.17 Z=-0.20 PenetrationDepth:5.985 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.26.28:720][124]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-251.82 Y=-310.78 Z=0.00 Location: X=23440.22 Y=24070.32 Z=88.50 Normal: X=0.66 Y=0.72 Z=-0.22 PenetrationDepth:2.171 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (59 other events since notify)
+[2022.05.05-06.26.29:853][192]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=-36.46 Y=-152.77 Z=0.00 Location: X=23477.20 Y=24008.08 Z=89.85 Normal: X=0.52 Y=0.84 Z=-0.18 PenetrationDepth:0.236 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (28 other events since notify)
+[2022.05.05-06.26.36:603][597]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=375.10 Y=138.91 Z=0.00 Location: X=26611.86 Y=23445.75 Z=89.85 Normal: X=-0.71 Y=-0.70 Z=-0.02 PenetrationDepth:7.318 Actor:SimpleAI8_1385 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.26.36:753][606]LogCharacterMovement: SimpleAI8_1385 is stuck and failed to move! Velocity: X=68.99 Y=-246.38 Z=0.00 Location: X=26694.02 Y=23539.03 Z=89.96 Normal: X=0.53 Y=0.85 Z=0.00 PenetrationDepth:8.893 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.26.37:204][633]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=44.96 Y=-248.84 Z=0.00 Location: X=26677.14 Y=23551.94 Z=90.14 Normal: X=0.20 Y=0.98 Z=0.00 PenetrationDepth:0.722 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.26.37:936][677]LogCharacterMovement: SimpleAI9_1562 is stuck and failed to move! Velocity: X=105.35 Y=231.78 Z=0.00 Location: X=26519.85 Y=23980.12 Z=90.01 Normal: X=0.86 Y=-0.50 Z=0.00 PenetrationDepth:3.494 Actor:SimpleAI7_1202 Component:CharacterMesh0 BoneName:LeftHand (27 other events since notify)
+[2022.05.05-06.26.38:220][694]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-15.28 Y=-399.71 Z=0.00 Location: X=26677.14 Y=23551.94 Z=90.14 Normal: X=0.20 Y=0.98 Z=0.00 PenetrationDepth:2.053 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightHand (60 other events since notify)
+[2022.05.05-06.26.38:237][695]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=30.85 Y=14.61 Z=0.00 Location: X=26487.87 Y=24099.44 Z=90.15 Normal: X=-0.94 Y=0.33 Z=-0.01 PenetrationDepth:1.374 Actor:SimpleAI9_1562 Component:CharacterMesh0 BoneName:RightHand (9 other events since notify)
+[2022.05.05-06.26.38:953][738]LogCharacterMovement: SimpleAI9_1562 is stuck and failed to move! Velocity: X=251.61 Y=310.96 Z=0.00 Location: X=26554.86 Y=24038.85 Z=90.01 Normal: X=-0.38 Y=0.92 Z=0.00 PenetrationDepth:41.452 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (43 other events since notify)
+[2022.05.05-06.26.39:237][755]LogCharacterMovement: SimpleAI12_2061 is stuck and failed to move! Velocity: X=-15.28 Y=-399.71 Z=0.00 Location: X=26677.14 Y=23551.94 Z=90.14 Normal: X=0.20 Y=0.98 Z=0.00 PenetrationDepth:2.053 Actor:SimpleAI14_2313 Component:CharacterMesh0 BoneName:RightHand (60 other events since notify)
+[2022.05.05-06.26.39:253][756]LogCharacterMovement: SimpleAI7_1202 is stuck and failed to move! Velocity: X=218.33 Y=335.16 Z=0.00 Location: X=26490.34 Y=24112.65 Z=88.03 Normal: X=0.62 Y=0.67 Z=-0.40 PenetrationDepth:26.417 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (54 other events since notify)
+[2022.05.05-06.27.05:603][337]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-33.62 Y=5.93 Z=0.00 Location: X=24968.94 Y=25118.47 Z=10.96 Normal: X=0.78 Y=-0.63 Z=0.00 PenetrationDepth:12.156 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (0 other events since notify)
+[2022.05.05-06.27.05:603][337]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-165.35 Y=-64.06 Z=0.00 Location: X=25043.63 Y=25219.38 Z=2.97 Normal: X=0.53 Y=0.85 Z=0.00 PenetrationDepth:1.112 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightArm (0 other events since notify)
+[2022.05.05-06.27.08:536][513]LogCharacterMovement: SimpleAI8_1385 is stuck and failed to move! Velocity: X=-33.50 Y=6.57 Z=0.00 Location: X=24067.42 Y=25324.02 Z=2.73 Normal: X=-0.65 Y=0.66 Z=-0.37 PenetrationDepth:11.348 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightHand (10 other events since notify)
+[2022.05.05-06.27.08:920][536]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=17.97 Y=29.02 Z=0.00 Location: X=23894.94 Y=25382.88 Z=2.73 Normal: X=-0.90 Y=-0.44 Z=0.00 PenetrationDepth:8.184 Actor:SimpleAI8_1385 Component:CharacterMesh0 BoneName:RightArm (14 other events since notify)
+[2022.05.05-06.27.09:037][543]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=-370.52 Y=150.72 Z=0.00 Location: X=24067.31 Y=25480.67 Z=2.97 Normal: X=-1.00 Y=-0.01 Z=0.00 PenetrationDepth:5.671 Actor:SimpleAI17_2878 Component:CharacterMesh0 BoneName:LeftHand (19 other events since notify)
+[2022.05.05-06.27.20:604][237]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=82.08 Y=-383.56 Z=0.00 Location: X=21038.56 Y=26258.67 Z=90.06 Normal: X=-0.99 Y=-0.13 Z=0.00 PenetrationDepth:6.784 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (1 other events since notify)
+[2022.05.05-06.27.22:821][370]LogScript:Warning: Accessed None trying to read property CallFunc_Deactivate_ADS_CharacterMovement
+	ThirdPersonCharacter_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0678
+[2022.05.05-06.27.22:822][370]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Deactivate_ADS_CharacterMovement from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set MaxWalkSpeed in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_Deactivate_ADS_CharacterMovement
+[2022.05.05-06.27.22:822][370]LogScript:Warning: Attempted to assign to None
+	ThirdPersonCharacter_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:068D
+[2022.05.05-06.27.22:822][370]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set MaxWalkSpeed in graph: EventGraph in object: ThirdPersonCharacter with description: Attempted to assign to None
+[2022.05.05-06.27.24:237][455]LogCharacterMovement: SimpleAI20_3333 is stuck and failed to move! Velocity: X=87.56 Y=390.30 Z=0.00 Location: X=21519.20 Y=24915.41 Z=90.03 Normal: X=0.97 Y=0.16 Z=-0.18 PenetrationDepth:1.237 Actor:SimpleAI2_377 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.27.29:269][757]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	Weapon_Base_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base_C:Reload:0262
+[2022.05.05-06.27.29:270][757]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2022.05.05-06.27.30:821][850]LogCharacterMovement: SimpleAI6_921 is stuck and failed to move! Velocity: X=-105.22 Y=-376.27 Z=0.00 Location: X=23736.60 Y=24150.63 Z=89.43 Normal: X=0.76 Y=-0.64 Z=0.00 PenetrationDepth:2.625 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:RightHand (0 other events since notify)
+[2022.05.05-06.27.30:837][851]LogCharacterMovement: SimpleAI17_2878 is stuck and failed to move! Velocity: X=371.61 Y=-148.01 Z=0.00 Location: X=23795.64 Y=24020.30 Z=88.11 Normal: X=0.94 Y=0.14 Z=-0.32 PenetrationDepth:33.207 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:LeftHand (6 other events since notify)
+[2022.05.05-06.27.30:887][854]LogCharacterMovement: SimpleAI4_617 is stuck and failed to move! Velocity: X=31.34 Y=-13.52 Z=0.00 Location: X=23743.27 Y=24063.86 Z=89.67 Normal: X=0.49 Y=-0.87 Z=0.00 PenetrationDepth:11.842 Actor:SimpleAI13_2184 Component:CharacterMesh0 BoneName:LeftHand (22 other events since notify)
+[2022.05.05-06.27.31:120][868]LogCharacterMovement: SimpleAI13_2184 is stuck and failed to move! Velocity: X=30.48 Y=-15.36 Z=0.00 Location: X=23721.46 Y=24129.69 Z=90.05 Normal: X=0.11 Y=0.99 Z=0.13 PenetrationDepth:3.539 Actor:SimpleAI4_617 Component:CharacterMesh0 BoneName:RightLeg (1 other events since notify)
+[2022.05.05-06.28.04:786][888]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	Weapon_Base_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base_C:Reload:0262
+[2022.05.05-06.28.04:786][888]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2022.05.05-06.28.10:971][259]LogBlueprintUserMessages: [Weapon_Base_C_0] FULL AMMO
+[2022.05.05-06.28.12:653][360]LogBlueprintUserMessages: [Weapon_Base_C_0] FULL AMMO
+[2022.05.05-06.28.13:454][408]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	Weapon_Base_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base_C:Reload:0262
+[2022.05.05-06.28.13:454][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2022.05.05-06.29.07:833][615]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.05.05-06.29.08:116][615]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2022.05.05-06.29.08:546][615]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.05-06.29.08:644][615]LogSlate: Took 0.000942 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.05-06.29.09:000][616]LogSlate: Took 0.000881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.05-06.34.41:992][560]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.05-06.34.42:122][564]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.IGME797FinalProject
+[2022.05.05-06.34.42:122][564]LogTemp: CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2022.05.05-06.34.42:122][564]LogTemp: Initial Dir: D:\Games\UE_4.16
+[2022.05.05-06.34.42:122][564]LogTemp: Env CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2022.05.05-06.34.42:150][565]LogTemp: BranchPath = PARTH/D/Games/UE_4.16/Engine/Binaries --- GameBranchPath = PARTH/D/Games/UE_4.16/Engine/Binaries
+[2022.05.05-06.34.42:150][565]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Heisen\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2022.05.05-06.47.36:101][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/SimpleAI" FILE="../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/SimpleAI.uasset" SILENT=true
+[2022.05.05-06.47.36:160][661]LogSavePackage: Save=51.95ms
+[2022.05.05-06.47.36:160][661]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/SimpleAIABB21EBD466870842E7173A1B44CE31E.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/SimpleAI.uasset'
+[2022.05.05-06.47.36:165][661]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/SimpleAI.uasset
+[2022.05.05-06.47.37:228][696]LogSavePackage: Save=191.30ms
+[2022.05.05-06.47.37:228][696]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/ThirdPersonCharacterA31D1CAF4FC2094EF6FE5A9F57DFBBB7.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.05.05-06.47.37:233][696]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2022.05.05-06.47.40:891][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.05-06.47.40:980][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.05-06.47.55:133][691]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.05.05-06.55.34:673][411]LogEditorViewport: Clicking on Actor (LMB): M4A1_Pickup_C (M4A1_Pickup)
+[2022.05.05-06.55.34:988][428]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.05.05-06.55.44:875][ 20]LogEditorViewport: Clicking on Actor (LMB): Objective1_C (Objective1)
+[2022.05.05-06.56.04:160][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.05-07.02.11:626][438]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.05.05-07.02.11:745][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.05.05-07.02.11:786][438]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.05.05-07.02.12:040][438]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2022.05.05-07.02.12:048][438]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.05.05-07.02.48:792][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2022.05.05-07.02.48:826][574]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2022.05.05-07.02.49:047][574]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.05.05-07.03.09:335][754]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2022.05.05-07.03.09:371][754]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2022.05.05-07.03.09:600][754]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.05.05-07.04.07:952][819]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2022.05.05-07.04.07:989][819]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2022.05.05-07.04.08:217][819]LogRenderer: Reallocating scene render targets to support 1788x888 NumSamples 1 (Frame:1).
+[2022.05.05-07.04.12:875][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2022.05.05-07.04.12:902][ 48]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2022.05.05-07.04.44:713][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2022.05.05-07.04.44:738][774]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2022.05.05-07.04.44:982][774]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.05.05-07.04.46:709][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2022.05.05-07.04.46:872][860]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_49:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2022.05.05-07.08.22:679][ 20]LogSavePackage: Save=121.97ms
+[2022.05.05-07.08.22:679][ 20]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/Swat_AnimBP0505165F4EB2A312D4F3A3A4C6CBE6CC.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/Character/Swat_AnimBP.uasset'
+[2022.05.05-07.08.22:684][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/Character/Swat_AnimBP.uasset
+[2022.05.05-07.08.41:283][ 94]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2022.05.05-07.08.41:318][ 94]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_52:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2022.05.05-07.08.43:423][180]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.Actor_8.DebugSkelMeshComponent_14) Already registered. Aborting.
+[2022.05.05-07.08.43:447][180]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_53:PersistentLevel.Actor_8.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2022.05.05-07.14.33:318][765]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLevel' took 0.047
+[2022.05.05-07.14.33:321][765]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton] ([1] browsable assets)...
+[2022.05.05-07.14.33:321][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton]
+[2022.05.05-07.14.33:330][765]LogSavePackage: Save=2.16ms
+[2022.05.05-07.14.33:330][765]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/AK_Skeleton_Auto129C8C94240E057BF817B469AD811FF45.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton_Auto1.uasset'
+[2022.05.05-07.14.33:332][765]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton_Auto1.uasset
+[2022.05.05-07.14.33:334][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base] ([1] browsable assets)...
+[2022.05.05-07.14.33:343][765]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base]
+[2022.05.05-07.14.33:343][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base]
+[2022.05.05-07.14.33:438][765]LogSavePackage: Save=89.35ms
+[2022.05.05-07.14.33:438][765]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/Weapon_Base_Auto18C55182C4315E8B3A632DAB4BBF518E8.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base_Auto1.uasset'
+[2022.05.05-07.14.33:441][765]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base_Auto1.uasset
+[2022.05.05-07.14.33:441][765]LogFileHelpers: Auto-saving content packages took 0.123
+[2022.05.05-07.15.48:021][161]LogSavePackage: Save=84.78ms
+[2022.05.05-07.15.48:021][161]LogSavePackage: Moving '../../../../../Unreal Projects/IGME797_FinalProject/Saved/Weapon_Base104F2D754BB19710AAE5B8995CBED24E.tmp' to '../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.uasset'
+[2022.05.05-07.15.48:025][161]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/IGME797_FinalProject/Content/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.uasset
+[2022.05.05-07.15.53:828][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.05-07.15.58:594][759]LogRenderer: Reallocating scene render targets to support 1788x924 NumSamples 1 (Frame:1).
+[2022.05.05-07.16.01:192][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.Actor_9.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2022.05.05-07.16.01:229][906]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_58:PersistentLevel.Actor_9.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2022.05.05-07.16.02:914][972]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.Actor_10.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2022.05.05-07.16.02:940][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_59:PersistentLevel.Actor_10.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2022.05.05-07.16.37:984][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.Actor_11.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2022.05.05-07.16.38:021][995]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_61:PersistentLevel.Actor_11.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2022.05.05-07.16.38:237][995]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.05.05-07.16.52:740][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.Actor_12.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2022.05.05-07.16.52:914][838]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_64:PersistentLevel.Actor_12.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2022.05.05-07.17.07:011][649]LogUObjectBase:Warning: Object is not registered
+[2022.05.05-07.17.07:338][649]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.327 s
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: === Handled ensure: ===
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: 
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: Stack: 
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008773E2B6
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000874EB8C2
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000087501E86
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000863D7556
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000008225D27B
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000857724AA
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000856172CC
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000008561A6D9
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000085738035
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008E4EDB57
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008E4F4B61
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008E7148D3
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008E54F604
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008E5277FC
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008E51814C
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000877315B0
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008771B7D1
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000877333DB
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000087717B22
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: USER32.dll!0x000000003C39E858
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: USER32.dll!0x000000003C39E299
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000087733CE6
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor.exe!0x00000000FC7EDB44
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor.exe!0x00000000FC7DF0B0
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor.exe!0x00000000FC7DF12A
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor.exe!0x00000000FC7F0CF9
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: UE4Editor.exe!0x00000000FC7F25F7
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: KERNEL32.DLL!0x000000003D147034
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: ntdll.dll!0x000000003E382651
+[2022.05.05-07.17.07:338][649]LogOutputDevice:Error: 
+[2022.05.05-07.17.07:348][649]LogStats:                SubmitErrorReport -  0.000 s
